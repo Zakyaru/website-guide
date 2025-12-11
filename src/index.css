@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@layer base{
+    body {
+        @apply bg-white font-sans;
+    }
+}
+
+@layer components{
+    .btn {
+        @apply px-4 py-2 rounded-md border-2 border-blue-600 hover:border-blue-700
+    }
+    .btn-primary{
+        @apply bg-blue-600 hover:bg-blue-700 text-white;
+    }
+    .btn-secondary{
+        @apply bg-white hover:bg-gray-100 text-black;
+    }
+}
+
+@layer utilities{
+    .container-main{
+        @apply max-w-4xl mx-auto px-4;
+    }
+    .bg-ligth {
+        @apply bg-gray-100;
+    }
+
+    .bg-dark {
+        @apply bg-gray-200;
+    }
+
+    .text-main {
+        @apply text-black;
+    }
+
+    .text-muted {
+        @apply text-gray-700;
+    }
+}
