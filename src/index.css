@@ -8,11 +8,23 @@
     body {
         @apply bg-white font-sans;
     }
+    h1{
+        @apply text-4xl sm:text-5xl font-bold tracking-tight;
+    }
+    h2{
+        @apply mt-12 text-3xl sm:text-4xl font-bold tracking-tight;
+    }
+    h3{
+        @apply text-xl sm:text-2xl font-bold;
+    }
+    p {
+        @apply text-base sm:text-lg;
+    }
 }
 
 @layer components{
     .btn {
-        @apply px-4 py-2 rounded-md border-2 border-blue-600 hover:border-blue-700
+        @apply px-2 py-1 rounded-md border-2 border-blue-600 hover:border-blue-700
     }
     .btn-primary{
         @apply bg-blue-600 hover:bg-blue-700 text-white;
@@ -24,7 +36,7 @@
 
 @layer utilities{
     .container-main{
-        @apply max-w-4xl mx-auto px-4;
+        @apply max-w-4xl mx-auto px-6 py-8;
     }
     .bg-ligth {
         @apply bg-gray-100;
@@ -39,6 +51,6 @@
     }
 
     .text-muted {
-        @apply text-gray-700;
+        @apply text-gray-400;
     }
 }
