@@ -1,9 +1,11 @@
 import Hero from "./components/Hero.tsx";
+import Navbar from "./components/Navbar.tsx"
 
 function App() {
   //ici qu'on fait le routing normalement
   return (
     <div className="container-main min-h-screen text-main bg-gray-100">
+      <Navbar></Navbar>
       <Hero></Hero>
       <div className="flex flex-col gap-2 items-center justify-center ">
         <h2>
