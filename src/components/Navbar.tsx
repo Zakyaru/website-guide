@@ -1,4 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 function Navbar() {
+  const { t, i18n } = useTranslation();
+
+  const current = i18n.resolvedLanguage || i18n.language; // plus fiable
+  const setLang = (lang: "fr" | "ru") => i18n.changeLanguage(lang);
+
+  const isFr = current?.startsWith("fr");
+  const isRu = current?.startsWith("ru");
+
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b">
       {/* Il faudra factoriser le max-w-4xl*/}
@@ -6,26 +16,46 @@ function Navbar() {
         {/* Menus à gauche */}
         <nav className="flex items-center gap-6">
           <a href="#" className="text-sm font-medium hover:underline">
-            Accueil
+            {t("nav.home")}
           </a>
           <a href="#" className="text-sm font-medium hover:underline">
-            Visites
+            {t("nav.visits")}
           </a>
           <a href="#" className="text-sm font-medium hover:underline">
-            FAQ
+            {t("nav.faq")}
           </a>
           <a href="#" className="text-sm font-medium hover:underline">
-            Qui suis-je ?
+            {t("nav.about")}
           </a>
           <a href="#" className="text-sm font-medium hover:underline">
-            Contact
+            {t("nav.contact")}
           </a>
         </nav>
 
-        {/* Emplacement à droite (future langue) */}
+        {/* Switch de langue à droite */}
         <div className="flex items-center gap-2">
-          <div className="h-9 w-24 rounded-md border flex items-center justify-center text-sm text-gray-500">
-            Lang
+          <div className="inline-flex rounded-md border bg-white overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setLang("fr")}
+              className={[
+                "px-3 h-9 text-sm font-medium transition",
+                isFr ? "bg-gray-900 text-white" : "text-gray-700 hover:bg-gray-100"
+              ].join(" ")}
+            >
+              FR
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setLang("ru")}
+              className={[
+                "px-3 h-9 text-sm font-medium transition border-l",
+                isRu ? "bg-gray-900 text-white" : "text-gray-700 hover:bg-gray-100"
+              ].join(" ")}
+            >
+              RU
+            </button>
           </div>
         </div>
       </div>
