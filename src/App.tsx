@@ -1,20 +1,39 @@
 import Hero from "./components/Hero.tsx";
+import Navbar from "./components/Navbar.tsx";
+import Card from "./components/Card.tsx";
+import Question from "./components/Question.tsx";
 
 function App() {
   //ici qu'on fait le routing normalement
   return (
-    <div className="container-main min-h-screen text-main bg-gray-100">
-      <Hero></Hero>
-      <div className="flex flex-col gap-2 items-center justify-center ">
-        <h2>
-          Visites proposées
-        </h2>
-        <p>Et là maintenant j'écris un texte super long pour qu'il prenne tout l'écran et carrément plus parce que là je vois que c'est pas assez. Phrase finale pour arriver sur un saut de ligne et s'envoler dans l'espace avec une fusée arc-en-ciel qui vole vraiment haut dans les nuages et qui part dans l'espace un peu comme le fond défaut de ce site, mais ça ne restera pas longtemps comme ça. Oh non Mme Bovary ne l'acccepterai pas.</p>
-      </div>
+    <div className="min-h-screen text-main bg-white">
+      <Navbar></Navbar>
+
+      <main className="container-main">
+        <Hero></Hero>
+        <div className="flex justify-center">
+          <h2>Visites proposées</h2>
+        </div>
+        <div className="flex flex-wrap justify-center mt-10 gap-x-16 gap-y-8">
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+          <Card></Card>
+        </div>
+        <div className="flex justify-center">
+          <h2>Questions</h2>
+        </div>
+        <div className="mt-10 flex flex-wrap gap-4">
+          <Question></Question>
+          <Question></Question>
+          <Question></Question>
+          <Question></Question>
+          <Question></Question>
+        </div>
+      
+      </main>
     </div>
-    
   );
 }
 
 export default App;
-

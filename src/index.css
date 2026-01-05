@@ -9,7 +9,7 @@
         @apply bg-white font-sans;
     }
     h1{
-        @apply text-4xl sm:text-5xl font-bold tracking-tight;
+        @apply text-3xl sm:text-4xl font-bold tracking-tight;
     }
     h2{
         @apply mt-12 text-3xl sm:text-4xl font-bold tracking-tight;
