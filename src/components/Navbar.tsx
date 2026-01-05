@@ -1,6 +1,7 @@
 function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full bg-white border-b">
+      {/* Il faudra factoriser le max-w-4xl*/}
       <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Menus à gauche */}
         <nav className="flex items-center gap-6">

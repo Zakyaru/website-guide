@@ -25,7 +25,7 @@ function Hero() {
             <img
               src={macha}
               alt="Photo du guide"
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-[50%_85%]"
             />
           </div>
         </div>
