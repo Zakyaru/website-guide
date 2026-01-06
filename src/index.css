@@ -1,48 +1,71 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-@layer base{
+@layer base {
     body {
         @apply bg-white font-sans;
     }
-    h1{
+
+    h1 {
         @apply text-3xl sm:text-4xl font-bold tracking-tight;
     }
-    h2{
+
+    h2 {
         @apply mt-12 text-3xl sm:text-4xl font-bold tracking-tight;
     }
-    h3{
+
+    h3 {
         @apply text-xl sm:text-2xl font-bold;
     }
+
     p {
         @apply text-base sm:text-lg;
     }
 }
 
-@layer components{
+@layer components {
     .btn {
         @apply px-2 py-1 rounded-md border-2 border-blue-600 hover:border-blue-700
     }
-    .btn-primary{
+
+    .btn-primary {
         @apply bg-blue-600 hover:bg-blue-700 text-white;
     }
-    .btn-secondary{
+
+    .btn-secondary {
         @apply bg-white hover:bg-gray-100 text-black;
     }
 }
 
-@layer utilities{
-    .container-main{
-        @apply max-w-4xl mx-auto px-6 py-8;
+@layer utilities {
+    .page-width {
+        @apply max-w-4xl;
     }
-    .bg-ligth {
+
+    .container-main {
+        @apply mx-auto px-6 py-8;
+    }
+
+    .bg-navbar {
+        @apply bg-gray-50;
+    }
+
+    .bg-light {
         @apply bg-gray-100;
     }
 
     .bg-dark {
+        @apply bg-gray-200;
+    }
+
+    .hover\:bg-light:hover {
+        @apply bg-gray-100;
+    }
+
+    .hover\:bg-dark:hover {
         @apply bg-gray-200;
     }
 

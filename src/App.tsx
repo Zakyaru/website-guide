@@ -9,7 +9,7 @@ function App() {
     <div className="min-h-screen text-main bg-white">
       <Navbar></Navbar>
 
-      <main className="container-main">
+      <main className="page-width container-main">
         <Hero></Hero>
         <div className="flex justify-center">
           <h2>Visites proposées</h2>

@@ -2,14 +2,14 @@
   "nav": {
     "home": "Accueil",
     "visits": "Visites",
-    "faq": "FAQ",
+    "questions": "Questions",
     "about": "Qui suis-je ?",
     "contact": "Contact"
   },
   "hero": {
     "name": "Maria Kouzmina",
     "subtitle": "Guide touristique de la vallée de la Loire",
-    "cta_contact": "Contacter",
-    "cta_about": "Qui suis-je ?"
+    "btn_contact": "Contacter",
+    "btn_about": "Qui suis-je ?"
   }
 }

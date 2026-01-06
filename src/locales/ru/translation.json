@@ -2,14 +2,14 @@
   "nav": {
     "home": "Главная",
     "visits": "Экскурсии",
-    "faq": "FAQ",
+    "questions": "Вопросы",
     "about": "Обо мне",
     "contact": "Контакты"
   },
   "hero": {
     "name": "Мария Кузьмина",
     "subtitle": "Гид по долине Луары",
-    "cta_contact": "Связаться",
-    "cta_about": "Обо мне"
+    "btn_contact": "Связаться",
+    "btn_about": "Обо мне"
   }
 }
