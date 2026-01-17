@@ -7,9 +7,14 @@
     "contact": "Contact"
   },
   "hero": {
-    "name": "Maria Kouzmina",
-    "subtitle": "Guide touristique de la vallée de la Loire",
+    "name": "Guide touristique de la vallée de la Loire",
+    "subtitle": "Maria Kouzmina",
     "btn_contact": "Contacter",
     "btn_about": "Qui suis-je ?"
+  },
+  "questions": {
+    "question1": "Combien de jours il faut prévoir au total ?",
+    "response1": "Pour faire vraiment le tour de la vallée de la Loire je recommande 2 à 3 jours. Cela vous permettra vraiment de profiter pleinement denos merveilleux châteaux et des plats locaux.",
+    "question2": ""
   }
 }
