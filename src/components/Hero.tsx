@@ -10,8 +10,8 @@ function Hero() {
       <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-10 sm:gap-16">
         {/*Hero text*/}
         <div className="flex flex-col">
-          <h1>{t("hero.name")}</h1>
-          <h3 className="mt-2 text-muted">{t("hero.subtitle")}</h3>
+          <h1>{t("hero.title")}</h1>
+          <h3 className="mt-2 text-muted">{t("hero.name")}</h3>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button variant="primary" className="w-40">
               {t("hero.btn_contact")}
