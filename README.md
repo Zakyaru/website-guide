@@ -1,73 +1,74 @@
-# React + TypeScript + Vite
+# WebSite Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site web vitrine pour une activité de guide touristique.  
+Le projet a pour objectif de présenter les services proposés, les visites disponibles et de fournir un point de contact clair, dans une interface moderne, multilingue et maintenable.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objectifs du projet
 
-## React Compiler
+- Présenter clairement les services proposés par le guide
+- Mettre en avant les différentes visites (châteaux, thèmes, informations pratiques)
+- Proposer un site multilingue
+- Construire une base technique propre, lisible et évolutive
+- Concevoir un site stable, destiné à peu évoluer dans le temps
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Le contenu est volontairement **statique**, les visites proposées étant stables et peu sujettes à changement.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧱 Stack technique
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React**
+- **TypeScript**
+- **Vite** (initialisation React + TypeScript)
+- **Tailwind CSS**
+- **react-i18next** (internationalisation)
+- **React Router** (prévu)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Le projet est **100 % frontend** et ne repose sur aucun backend ni base de données.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 🗂️ Architecture & choix techniques
+
+- Découpage en **composants React** (Hero, Navbar, Card, Questions, etc.)
+- Utilisation de **TypeScript** pour améliorer la robustesse et la lisibilité du code
+- Mise en place d’un **design system léger** (ex : composant `Button` avec variantes)
+- Gestion centralisée des textes via l’internationalisation
+- Contenu chargé **en statique** pour garantir simplicité, performance et stabilité
+- Routing prévu afin de structurer les différentes pages du site (visites, à propos, contact…)
+
+---
+
+## 🌍 Internationalisation
+
+Le site est conçu dès le départ pour être multilingue :
+
+- 🇫🇷 Français
+- 🇷🇺 Russe
+- 🇬🇧 Anglais (prévu)
+
+Les textes sont externalisés et gérés via `react-i18next`.
+
+---
+
+## 🚀 Lancement du projet
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📌 État du projet
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Projet en cours de développement.  
+La structure globale est en place, les composants principaux sont définis et l’architecture est pensée pour rester simple, claire et maintenable.
+
+---
+
+## ✍️ Auteur
+
+Projet développé par Arseni Ergin.
