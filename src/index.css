@@ -69,6 +69,10 @@
         @apply bg-gray-200;
     }
 
+    .bg-primary {
+        @apply bg-blue-600;
+    }
+
     .text-main {
         @apply text-black;
     }

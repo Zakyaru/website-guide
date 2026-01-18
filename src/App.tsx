@@ -2,6 +2,7 @@ import Hero from "./components/Hero.tsx";
 import Navbar from "./components/Navbar.tsx";
 import Card from "./components/Card.tsx";
 import Questions from "./components/Questions.tsx";
+import Contact from "./components/Contact.tsx";
 
 function App() {
   //ici qu'on fait le routing normalement
@@ -23,6 +24,7 @@ function App() {
         <Questions></Questions>
       
       </main>
+      <Contact></Contact>
     </div>
   );
 }
