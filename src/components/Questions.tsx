@@ -16,7 +16,7 @@ export default function Questions() {
         <h2>{t("questions.title")}</h2>
       </div>
 
-      <div className="mt-10 flex flex-wrap gap-4">
+      <div className="mt-10 flex flex-col gap-4">
         <Question
           question={t("questions.question1")}
           response={t("questions.response1")}
