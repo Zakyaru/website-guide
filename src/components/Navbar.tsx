@@ -35,7 +35,7 @@ function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-navbar border-b">
-      <div className="page-width mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="page-width mx-auto h-16 flex items-center justify-between">
         {/* Gauche: burger (mobile) + menu (desktop) */}
         <div className="flex items-center gap-3">
           {/* Bouton burger - visible uniquement < md */}

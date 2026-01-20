@@ -7,8 +7,7 @@ export default function Contact() {
         <h2 className="text-white">Contact</h2>
 
         <h3 className="text-white">
-          Pour toute réservation ou question, contactez-moi directement via mes
-          coordonnées.
+          Pour toute réservation ou question, contactez-moi directement via mes coordonnées.
         </h3>
 
         <div className="flex flex-col gap-2 text-lg text-white">
@@ -23,7 +22,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="p-1 text-4xl bg-white rounded-md text-pink-600 hover:text-white hover:bg-pink-600 transition-colors"
+            className="p-1 text-4xl bg-white rounded-md text-pink-600 hover:text-white hover:bg-pink-500 transition-colors"
           >
             <FaInstagram />
           </a>

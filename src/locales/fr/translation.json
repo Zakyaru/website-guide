@@ -13,9 +13,18 @@
     "btn_about": "Qui suis-je ?"
   },
   "questions": {
-    "title":"Questions",
-    "question1": "Combien de jours il faut prévoir au total ?",
-    "response1": "Pour faire vraiment le tour de la vallée de la Loire je recommande 2 à 3 jours. Cela vous permettra vraiment de profiter pleinement denos merveilleux châteaux et des plats locaux.",
-    "question2": ""
-  }
+  "title": "Questions fréquentes",
+  "question2": "Combien de jours faut-il prévoir ?",
+  "response2": "2 à 3 jours suffisent idéalement pour découvrir les grands classiques – les châteaux incontournables. En revanche, si vous souhaitez embrasser toute la richesse de la vallée (les châteaux à l’ouest de Tours, Saumur, Angers, Nantes), il faut compter au minimum une semaine, avec 2 à 3 nuits dans différents hôtels le long du parcours.",
+  "question3": "Combien de châteaux peut-on visiter en une journée ?",
+  "response3": "Un bon rythme, c’est deux châteaux par jour, trois au maximum. L’idéal : deux châteaux + une balade à pied en ville ou une visite-dégustation chez un vigneron. Pour varier les plaisirs et faire une pause dans les châteaux, on peut aussi visiter le Bioparc de Beauval, découvrir des habitats troglodytiques et des champignonnières, l’abbaye de Fontevraud et son musée d’art contemporain, le musée insolite des Compagnons du Devoir à Tours, ou encore, à la belle saison, se promener dans certains des plus beaux villages de France… et bien d’autres choses encore.",
+  "question4": "Où loger ? Ville ou château-hôtel : avantages et inconvénients ?",
+  "response4": "Pour découvrir les châteaux classiques (Chambord, Blois, Cheverny, Chaumont, Amboise, Chenonceau, Villandry), il est préférable de séjourner à Amboise ou à Blois. Ces deux villes offrent un large choix d’hôtels, dans toutes les gammes de prix. Si vous n’avez pas de voiture, c’est clairement la meilleure option : le soir, vous pouvez vous promener librement, choisir un restaurant à votre goût, ou assister au spectacle son et lumière du château de Blois. Les châteaux-hôtels, quant à eux, sont généralement situés en pleine nature, entourés de parcs magnifiques, avec un charme hors du temps et parfois même un personnel vêtu de costumes d’époque. Si vous êtes motorisé et que vous aimez le calme et la nature, c’est une excellente alternative.",
+  "question5": "Quelle est la meilleure période pour venir ?",
+  "response5": "La saison des châteaux s’étend de mars à octobre. Comme souvent, les meilleures périodes sont d’avril à juin, puis de septembre à début octobre. Il vaut mieux éviter les longs week-ends fériés nationaux – Pâques, l’Ascension et la Pentecôte – car les principaux châteaux sont alors envahis par les visiteurs français. En juillet et août, la chaleur peut être importante. Et pourtant, les châteaux sont sans doute les plus beaux en décembre : les somptueuses décorations de Noël créent une atmosphère féerique qui compense l’absence de floraison dans les jardins et la brièveté des journées.",
+  "question6": "Comment s’habiller en mai ? En septembre ? En hiver ?",
+  "response6": "Le climat de la Loire est océanique tempéré. On marche beaucoup, souvent en extérieur. Il est donc toujours conseillé d’avoir une paire de chaussures fermées et confortables, de type baskets imperméables, ainsi qu’une veste coupe-vent avec capuche. En hiver, il faut prévoir des vêtements équivalents à un automne tardif en Russie : 5 à 8 degrés peuvent, à cause de l’humidité, être ressentis comme proches de zéro. Des chaussures d’automne bien isolées suffisent. Au printemps et en automne, les matinées peuvent être fraîches et venteuses, puis devenir ensoleillées et agréables l’après-midi. S’habiller en couches, façon « oignon », reste la meilleure solution.",
+  "question7": "Y a-t-il des bornes de recharge pour les voitures électriques ?",
+  "response7": "Il ne devrait pas y avoir de difficultés à ce niveau-là. Des bornes sont disponibles sur les autoroutes, sur les parkings urbains, ainsi que sur les premières places de stationnement près du château de Chenonceau."
+}
 }
