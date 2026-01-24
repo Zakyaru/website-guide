@@ -7,7 +7,7 @@ function Hero() {
 
   return (
     <section className="w-full">
-      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-10 sm:gap-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-10 sm:gap-12">
         {/*Hero text*/}
         <div className="flex flex-col">
           <h1>{t("hero.title")}</h1>

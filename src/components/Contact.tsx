@@ -1,13 +1,15 @@
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <footer className="w-full pb-10 bg-primary">
       <div className="page-width mx-auto flex flex-col items-center gap-6 text-center">
-        <h2 className="text-white">Contact</h2>
+        <h2 className="text-white">{t("contact.title")}</h2>
 
         <h3 className="text-white">
-          Pour toute réservation ou question, contactez-moi directement via mes coordonnées.
+          {t("contact.subtitle")}
         </h3>
 
         <div className="flex flex-col gap-2 text-lg text-white">
