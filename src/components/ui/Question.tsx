@@ -21,7 +21,7 @@ export default function Question({
       <div className="mt-1">
         <svg
           className={`h-5 w-5 transition-transform duration-300 ease-in-out ${
-            isOpen ? "rotate-180" : "rotate-0"
+            isOpen ? "rotate-0" : "-rotate-90"
           }`}
           viewBox="0 0 30.727 30.727"
           fill="currentColor"
@@ -30,7 +30,7 @@ export default function Question({
         </svg>
       </div>
 
-      <div>
+      <div className="pr-2">
         <div className="text-lg">{question}</div>
         {isOpen && <div className="mt-3 text-muted">{response}</div>}
       </div>

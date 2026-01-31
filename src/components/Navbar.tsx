@@ -35,7 +35,7 @@ function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-navbar border-b">
-      <div className="page-width mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="page-width mx-auto h-16 flex items-center justify-between">
         {/* Gauche: burger (mobile) + menu (desktop) */}
         <div className="flex items-center gap-3">
           {/* Bouton burger - visible uniquement < md */}
@@ -122,14 +122,14 @@ function Navbar() {
               <button
                 type="button"
                 onClick={() => {
-                  setLang("fr");
+                  setLang("ru");
                   setOpen(false);
                 }}
                 className="h-9 w-full inline-flex items-center justify-center rounded-md hover:bg-dark"
-                aria-label="Français"
+                aria-label="Русский"
               >
                 <img
-                  src={flagFr}
+                  src={flagRu}
                   alt=""
                   className="h-5 w-5 rounded-sm"
                   draggable={false}
@@ -139,14 +139,14 @@ function Navbar() {
               <button
                 type="button"
                 onClick={() => {
-                  setLang("ru");
+                  setLang("fr");
                   setOpen(false);
                 }}
                 className="h-9 w-full inline-flex items-center justify-center rounded-md hover:bg-dark"
-                aria-label="Русский"
+                aria-label="Français"
               >
                 <img
-                  src={flagRu}
+                  src={flagFr}
                   alt=""
                   className="h-5 w-5 rounded-sm"
                   draggable={false}

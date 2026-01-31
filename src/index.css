@@ -18,7 +18,7 @@
     }
 
     h3 {
-        @apply text-xl sm:text-2xl font-bold;
+        @apply text-xl sm:text-2xl font-semibold;
     }
 
     p {
@@ -42,11 +42,11 @@
 
 @layer utilities {
     .page-width {
-        @apply max-w-4xl;
+        @apply max-w-5xl px-6;
     }
 
     .container-main {
-        @apply mx-auto px-6 py-8;
+        @apply mx-auto pt-8 pb-12;
     }
 
     .bg-navbar {
@@ -67,6 +67,10 @@
 
     .hover\:bg-dark:hover {
         @apply bg-gray-200;
+    }
+
+    .bg-primary {
+        @apply bg-blue-600;
     }
 
     .text-main {
