@@ -6,11 +6,44 @@
     "about": "Qui suis-je ?",
     "contact": "Contact"
   },
-  "hero": {
-    "title": "Guide touristique de la vallée de la Loire",
-    "name": "Guide conférencier agréé",
-    "btn_contact": "Contacter",
-    "btn_about": "Qui suis-je ?"
+  "home": {
+    "hero": {
+      "title": "Экскурсии с душой для взрослых и детей",
+      "name": "Гид с лицензией | Долинa Луары",
+      "btn_contact": "Связаться",
+      "btn_about": "Обо мне"
+    },
+    "title": "Pourquoi vous devez absolument venir ici",
+    "paragraphs": [
+      {
+        "id": 1,
+        "text": "Vous êtes peut-être déjà venu(e) en France à plusieurs reprises : vous vous êtes promené(e) dans Paris ou vous vous êtes reposé(e) sur la Côte d’Azur. Peut-être même avez-vous fait une excursion en Normandie."
+      },
+      {
+        "id": 2,
+        "text": "D’un point de vue touristique, la France est très chanceuse : elle possède ses montagnes, l’océan, la Manche et la mer Méditerranée. Un Français a toujours une destination où aller. Chaque région est unique à sa manière, différente des autres tant par ses paysages et son climat que par son histoire locale et ses traditions, le style de ses maisons, de ses costumes et de sa cuisine."
+      },
+      {
+        "id": 3,
+        "text": "Mais lorsque l’on parle précisément des origines de la France moderne, du domaine même du roi de France, il s’agit avant tout de l’Île-de-France – Saint-Denis, Vincennes, Saint-Germain, Passy, Rambouillet. Et en second lieu – de la vallée de la Loire."
+      },
+      {
+        "id": 4,
+        "text": "Autrefois, c’était le plus royal des territoires. Et les châteaux disséminés le long de la Loire et de ses affluents témoignent encore aujourd’hui de cet âge d’or sans précédent."
+      },
+      {
+        "id": 5,
+        "text": "C’est la terre de François Rabelais, de Descartes et de Balzac. On y parle le français le plus pur, et les habitants locaux sont secrètement fiers de penser que dans leurs veines coule le « sang bleu » des rois de France et de leurs courtisans."
+      },
+      {
+        "id": 6,
+        "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+      },
+      {
+        "id": 7,
+        "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+      }
+    ]
   },
   "visits": {
     "title": "Les visites"
