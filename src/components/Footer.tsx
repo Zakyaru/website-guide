@@ -1,7 +1,7 @@
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
-export default function Contact() {
+function Footer() {
   const { t } = useTranslation();
   return (
     <footer className="w-full pb-10 bg-primary">
@@ -44,3 +44,5 @@ export default function Contact() {
     </footer>
   );
 }
+
+export default Footer;

@@ -1,36 +1,25 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
+import Visits from "./pages/Visits";
+import VisitDetails from "./pages/VisitDetails";
+import Questions from "./pages/Questions";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound"
 
-import Navbar from "./components/Navbar.tsx";
-import Card from "./components/Card.tsx";
-import Questions from "./components/Questions.tsx";
-import Contact from "./components/Contact.tsx";
-import Home from "./pages/Home.tsx";
-import { useTranslation } from "react-i18next";
-
-function App() {
-  //ici qu'on fait le routing normalement
-
-  const {t} = useTranslation();
+export default function App() {
   return (
-    <div className="min-h-screen text-main bg-white">
-      <Navbar></Navbar>
-
-      <main className="page-width container-main">
-        <Home></Home>
-        <div className="flex justify-center">
-          <h2>{t("visits.title")}</h2>
-        </div>
-        <div className="flex flex-wrap justify-center mt-10 gap-x-16 gap-y-8">
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-          <Card></Card>
-        </div>
-        <Questions></Questions>
-      
-      </main>
-      <Contact></Contact>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/visits" element={<Visits />} />
+          <Route path="/visits/:slug" element={<VisitDetails />} />
+          <Route path="/questions" element={<Questions />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
