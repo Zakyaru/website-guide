@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
+import { FiMenu, FiX } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 
 import flagFr from "../assets/flag-fr.svg";
 import flagRu from "../assets/flag-ru.svg";
@@ -18,7 +20,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
-  // Burger menu mobile
+  // Burger menu mobile (drawer)
   const [mobileOpen, setMobileOpen] = useState(false);
 
   // Fermer le dropdown langue si clic en dehors
@@ -31,15 +33,33 @@ function Navbar() {
     return () => document.removeEventListener("mousedown", onDocClick);
   }, []);
 
+  // Bloquer le scroll du body quand le drawer est ouvert
+  useEffect(() => {
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
+  // Fermer avec la touche ESC
+  useEffect(() => {
+    if (!mobileOpen) return;
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMobileOpen(false);
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [mobileOpen]);
+
   function scrollToContact() {
     const el = document.getElementById("contact");
     if (el) {
       el.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
-      // fallback : si jamais l'élément n'existe pas
       window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
     }
-    // Ferme le menu mobile si ouvert
     setMobileOpen(false);
   }
 
@@ -50,7 +70,7 @@ function Navbar() {
     `${linkBase} ${isActive ? "underline text-primary" : ""}`;
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-navbar border-b">
+    <header className="sticky top-0 z-50 w-full bg-navbar border-b border-gray-300">
       <div className="page-width mx-auto h-16 flex items-center justify-between">
         {/* Gauche: burger (mobile) + menu (desktop) */}
         <div className="flex items-center gap-3">
@@ -58,23 +78,18 @@ function Navbar() {
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="md:hidden h-9 w-9 inline-flex items-center justify-center rounded-md border bg-light hover:bg-dark transition"
-            aria-label="Open navigation menu"
+            className="md:hidden h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-400 bg-light hover:bg-dark transition"
+            aria-label={
+              mobileOpen ? "Close navigation menu" : "Open navigation menu"
+            }
             aria-expanded={mobileOpen}
+            aria-controls="mobile-drawer"
           >
-            <svg
-              className="h-5 w-5 text-gray-800"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <line x1="4" y1="6" x2="20" y2="6" />
-              <line x1="4" y1="12" x2="20" y2="12" />
-              <line x1="4" y1="18" x2="20" y2="18" />
-            </svg>
+            {mobileOpen ? (
+              <FiX className="h-5 w-5 text-gray-800" />
+            ) : (
+              <FiMenu className="h-5 w-5 text-gray-800" />
+            )}
           </button>
 
           {/* Menu desktop - visible uniquement >= md */}
@@ -97,16 +112,21 @@ function Navbar() {
           </nav>
         </div>
 
-        {/* Dropdown de langue à droite (drapeaux only) */}
+        {/* Droite : Contact + Lang */}
         <div className="flex flex-row gap-4">
-          <button type="button" onClick={scrollToContact} className="btn btn-secondary text-sm">
+          <button
+            type="button"
+            onClick={scrollToContact}
+            className="btn btn-secondary text-sm"
+          >
             {t("nav.contact")}
           </button>
+
           <div className="relative" ref={menuRef}>
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
-              className="h-9 px-2 inline-flex items-center gap-1 rounded-md border bg-light hover:bg-dark transition"
+              className="h-9 px-2 inline-flex items-center gap-1 rounded-md border border-gray-400 bg-light hover:bg-dark transition"
               aria-haspopup="menu"
               aria-expanded={open}
               aria-label="Change language"
@@ -118,26 +138,17 @@ function Navbar() {
                 draggable={false}
               />
 
-              {/* Flèche dropdown */}
-              <svg
-                className={`h-3 w-3 text-gray-800 transition-transform ${
+              <FiChevronDown
+                className={`h-4 w-4 text-gray-800 transition-transform ${
                   open ? "rotate-180" : ""
                 }`}
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.24a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z"
-                  clipRule="evenodd"
-                />
-              </svg>
+              />
             </button>
 
             {open && (
               <div
                 role="menu"
-                className="absolute right-0 mt-2 w-14 rounded-md border bg-light shadow-sm p-1 flex flex-col gap-1"
+                className="absolute right-0 mt-2 w-14 rounded-md border border-gray-400 bg-light shadow-sm p-1 flex flex-col gap-1"
               >
                 <button
                   type="button"
@@ -178,14 +189,49 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Menu mobile - visible uniquement < md */}
-      {mobileOpen && (
-        <div className="md:hidden border-t bg-navbar">
-          <nav className="page-width mx-auto px-6 py-3 flex flex-col gap-2">
+      {/* Drawer mobile + overlay */}
+      <div
+        className={`md:hidden fixed inset-0 z-50 ${
+          mobileOpen ? "" : "pointer-events-none"
+        }`}
+        aria-hidden={!mobileOpen}
+      >
+        {/* Overlay */}
+        <button
+          type="button"
+          aria-label="Close menu overlay"
+          onClick={() => setMobileOpen(false)}
+          className={`absolute inset-0 bg-black/40 transition-opacity ${
+            mobileOpen ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        {/* Panneau latéral */}
+        <aside
+          id="mobile-drawer"
+          className={`absolute left-0 top-0 h-full w-3/4 max-w-sm bg-gray-50 border-r shadow-lg
+          transform transition-transform duration-300 ease-out
+          ${mobileOpen ? "translate-x-0" : "-translate-x-full"}`}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="h-16 px-4 flex items-center justify-between">
+            <span className="font-semibold text-main">Menu</span>
+            <button
+              type="button"
+              onClick={() => setMobileOpen(false)}
+              className="h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-400 bg-light hover:bg-dark transition"
+              aria-label="Close navigation menu"
+            >
+              <FiX className="h-5 w-5 text-gray-800" />
+            </button>
+          </div>
+
+          <nav className="px-4 py-4 flex flex-col gap-3">
             <NavLink
               to="/"
               end
-              className={linkBase}
+              className={navLinkClass}
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.home")}
@@ -193,7 +239,7 @@ function Navbar() {
 
             <NavLink
               to="/visits"
-              className={linkBase}
+              className={navLinkClass}
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.visits")}
@@ -201,7 +247,7 @@ function Navbar() {
 
             <NavLink
               to="/questions"
-              className={linkBase}
+              className={navLinkClass}
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.questions")}
@@ -209,14 +255,14 @@ function Navbar() {
 
             <NavLink
               to="/about"
-              className={linkBase}
+              className={navLinkClass}
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.about")}
             </NavLink>
           </nav>
-        </div>
-      )}
+        </aside>
+      </div>
     </header>
   );
 }
