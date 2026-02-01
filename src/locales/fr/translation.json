@@ -1,10 +1,10 @@
 {
   "nav": {
     "home": "Accueil",
-    "visits": "Visites",
-    "questions": "Questions",
+    "visits": "Les visites",
+    "questions": "Questions fréquentes",
     "about": "Qui suis-je ?",
-    "contact": "Contact"
+    "contact": "Me contacter"
   },
   "home": {
     "hero": {

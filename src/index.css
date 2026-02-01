@@ -84,4 +84,8 @@
     .text-muted {
         @apply text-gray-500;
     }
+
+    .link {
+        @apply text-sm font-medium hover:underline underline-offset-4;
+    }
 }
