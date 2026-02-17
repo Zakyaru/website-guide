@@ -42,7 +42,7 @@
 
 @layer utilities {
     .page-width {
-        @apply max-w-5xl px-6;
+        @apply w-full max-w-5xl px-6;
     }
 
     .container-main {

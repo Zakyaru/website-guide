@@ -6,7 +6,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full">
+    <section>
       <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-10 sm:gap-12">
         {/*Hero text*/}
         <div className="flex flex-col">
