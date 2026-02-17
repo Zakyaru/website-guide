@@ -1,25 +1,43 @@
 import { FiChevronRight } from "react-icons/fi";
 
 type QuestionProps = {
+  /** Texte de la question affichée */
   question: string;
+
+  /** Contenu affiché lorsque la question est ouverte */
   response: string;
+
+  /** Indique si la réponse est actuellement visible */
   isOpen: boolean;
-  onClick: () => void;
+
+  /** Appelé quand l'utilisateur clique sur la question */
+  onToggle: () => void;
+
+  /**
+   * Permet au parent d'enregistrer une référence vers le bouton DOM.
+   * Le parent s'en sert pour mesurer la position avant/après ouverture
+   * afin de compenser le scroll et éviter que la page "saute".
+   */
+  registerButtonRef?: (element: HTMLButtonElement | null) => void;
 };
 
 export default function Question({
   question,
   response,
   isOpen,
-  onClick,
+  onToggle,
+  registerButtonRef,
 }: QuestionProps) {
   return (
     <button
+      ref={registerButtonRef}
+      type="button"
+      onClick={onToggle}
       className={`px-4 py-4 rounded-lg flex items-start gap-4 text-left ${
         isOpen ? "bg-light" : "bg-dark"
       }`}
-      onClick={onClick}
     >
+      {/* Chevron qui pivote quand la réponse est ouverte */}
       <div className="mt-0.5">
         <FiChevronRight
           className={`h-6 w-6 text-gray-800 transition-transform ${
@@ -28,9 +46,17 @@ export default function Question({
         />
       </div>
 
+      {/* Contenu textuel */}
       <div className="pr-2">
+        {/* Question toujours visible */}
         <div className="text-lg">{question}</div>
-        {isOpen && <div className="mt-3 text-muted">{response}</div>}
+
+        {/* Réponse affichée uniquement si ouverte */}
+        {isOpen && (
+          <div className="mt-3 text-muted">
+            {response}
+          </div>
+        )}
       </div>
     </button>
   );
