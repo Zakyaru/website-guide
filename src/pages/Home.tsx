@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <section>
-        <h2>{t("home.title")}</h2>
+        <h2 className="mt-12">{t("home.title")}</h2>
         <div className="mt-10 space-y-6">
           {paragraphs.map((item) => (
             <p key={item.id}>{item.text}</p>

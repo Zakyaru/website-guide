@@ -50,6 +50,7 @@
   },
   "questions": {
     "title": "Часто задаваемые вопросы",
+    "paragraph": "Vous trouverez ici la liste des questions fréquemment posées, mais n'hésitez pas à me contacter pour toute autre question. Je serai ravi de vous répondre !",
     "questionsList": [
       {
         "id":1,

@@ -54,7 +54,9 @@ export default function Questions() {
       prevClickedQuestionIdRef.current = null;
     }
 
-    setOpenQuestionId((current) => (current === questionId ? null : questionId));
+    setOpenQuestionId((current) =>
+      current === questionId ? null : questionId,
+    );
   }
 
   /**
@@ -93,9 +95,10 @@ export default function Questions() {
 
   return (
     <section>
-        <h2>{t("questions.title")}</h2>
+      <h2>{t("questions.title")}</h2>
+      <p className="mt-4">{t("questions.paragraph")}</p>
 
-      <div className="mt-10 flex flex-col gap-4">
+      <div className="mt-8 flex flex-col gap-4">
         {faqItems.map((item) => (
           <Question
             key={item.id}
