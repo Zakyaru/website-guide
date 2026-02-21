@@ -46,7 +46,82 @@
     ]
   },
   "visits": {
-    "title": "Экскурсии"
+    "title": "Catalogue des visites",
+    "paragraph": "Paragraphe de texte",
+    "visitsList": [
+      {
+        "id": 1,
+        "title":"Chateau Chambord",
+        "slug":"chateau-chambord",
+        "image_url":"/images/chambord_test.webp",
+        "price": 90,
+        "duration":"2h",
+        "paragraphs":[
+          {
+            "id": 1,
+            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+          },
+          {
+            "id": 2,
+            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title":"Chateau Chenonceau",
+        "slug":"chateau-chenonceau",
+        "image_url":"/images/chenonceau_test.jpg",
+        "price": 75,
+        "duration":"2h",
+        "paragraphs":[
+          {
+            "id": 1,
+            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+          },
+          {
+            "id": 2,
+            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title":"Visite de la ville d'Amboise",
+        "slug":"visite-amboise",
+        "image_url":"/images/amboise_test.jpg",
+        "price": 115,
+        "duration":"4h",
+        "paragraphs":[
+          {
+            "id": 1,
+            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+          },
+          {
+            "id": 2,
+            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title":"Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
+        "slug":"visite-spéciale",
+        "image_url":"/images/loire_test.jpg",
+        "price": 200,
+        "duration":"special tour",
+        "paragraphs":[
+          {
+            "id": 1,
+            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+          },
+          {
+            "id": 2,
+            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+          }
+        ]
+      }
+    ]
   },
   "questions": {
     "title": "Часто задаваемые вопросы",

@@ -21,7 +21,7 @@ type QuestionProps = {
   registerButtonRef?: (element: HTMLButtonElement | null) => void;
 };
 
-export default function Question({
+export default function QuestionCard({
   question,
   response,
   isOpen,

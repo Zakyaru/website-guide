@@ -13,9 +13,7 @@ function Hero() {
           <h1>{t("home.hero.title")}</h1>
           <h3 className="mt-2 text-muted">{t("home.hero.name")}</h3>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button variant="primary" className="w-40">
-              {t("home.hero.btn_contact")}
-            </Button>
+            <Button variant="primary" className="w-40">{t("home.hero.btn_contact")}</Button>
             <Button variant="secondary">{t("home.hero.btn_about")}</Button>
           </div>
         </div>

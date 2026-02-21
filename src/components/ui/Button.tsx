@@ -4,20 +4,10 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: "primary" | "secondary";
 };
 
-function Button({
-  variant = "primary",
-  className = "",
-  children,
-  ...props
-}: ButtonProps) {
-  const variantClass =
-    variant === "primary" ? "btn-primary" : "btn-secondary";
-
+function Button({variant = "primary", className = "", children, ...props}: ButtonProps) {
+  const variantClass = variant === "primary" ? "btn-primary" : "btn-secondary";
   return (
-    <button
-      className={`btn ${variantClass} ${className}`}
-      {...props}
-    >
+    <button className={`btn ${variantClass} ${className}`} {...props}>
       {children}
     </button>
   );

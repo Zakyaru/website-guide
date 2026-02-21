@@ -1,16 +1,14 @@
 import { useRef, useState, useLayoutEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Question from "../components/ui/Question";
+import QuestionCard from "../components/ui/QuestionCard";
 
-type FaqItem = { id: number; question: string; response: string };
+type QuestionsList = { id: number; question: string; response: string };
 
 export default function Questions() {
   const { t } = useTranslation();
 
   // Récupère la liste FAQ depuis i18n (retourne un tableau d'objets)
-  const faqItems = t("questions.questionsList", {
-    returnObjects: true,
-  }) as FaqItem[];
+  const questionsList = t("questions.questionsList", {returnObjects: true}) as QuestionsList[];
 
   // id de la question actuellement ouverte (ou null si aucune)
   const [openQuestionId, setOpenQuestionId] = useState<number | null>(null);
@@ -99,8 +97,8 @@ export default function Questions() {
       <p className="mt-4">{t("questions.paragraph")}</p>
 
       <div className="mt-8 flex flex-col gap-4">
-        {faqItems.map((item) => (
-          <Question
+        {questionsList.map((item) => (
+          <QuestionCard
             key={item.id}
             question={item.question}
             response={item.response}
