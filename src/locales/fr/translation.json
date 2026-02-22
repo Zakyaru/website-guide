@@ -47,7 +47,12 @@
   },
   "visits": {
     "title": "Catalogue des visites",
-    "paragraph": "Paragraphe de texte",
+    "description": "TBD",
+    "btn_more":"En savoir plus",
+    "twoHour":"2 heures",
+    "fourHour":"4 heures",
+    "day":"Journée complète 8-9 heures",
+    "special":"Circuits sur plusieurs jours",
     "visitsList": [
       {
         "id": 1,

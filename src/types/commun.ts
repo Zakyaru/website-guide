@@ -5,10 +5,10 @@ export interface Paragraph {
 
 export interface Visit {
   id: number;
+  duration: string;
   title: string;
   slug: string;
   image_url: string;
   price: number;
-  duration?: string;
-  paragraphs?: Paragraph[];
+  paragraphs: Paragraph[];
 }

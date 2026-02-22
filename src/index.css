@@ -21,6 +21,10 @@
         @apply text-xl sm:text-2xl font-semibold;
     }
 
+    h4 {
+        @apply text-2xl sm:text-3xl font-semibold;
+    }
+
     p {
         @apply text-base sm:text-lg;
     }

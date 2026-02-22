@@ -1,5 +1,7 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Button from "./Button";
+import { FiTag } from "react-icons/fi";
 import type { Visit } from "../../types/commun";
 
 type Props = {
@@ -7,6 +9,7 @@ type Props = {
 };
 
 export default function VisitCard({ visit }: Props) {
+    const {t} = useTranslation();
   const { title, slug, image_url, price } = visit;
   const priceString = `${price} €`;
 
@@ -19,10 +22,14 @@ export default function VisitCard({ visit }: Props) {
         className="w-full h-72 object-cover"
       />
       <div className="p-4">
-        <h3>{title}</h3>
-        <p className="mb-4">{priceString}</p>
+        <span className="text-xl font-semibold">{title}</span>
+        <div className="mt-1 mb-4 flex items-center gap-2">
+            <FiTag className="text-lg"/>
+            <span className="text-lg">{priceString}</span>
+        </div>
+        
         <Link to={`/visits/${slug}`}>
-          <Button variant="primary">En savoir plus</Button>
+          <Button variant="primary">{t("visits.btn_more")}</Button>
         </Link>
       </div>
     </article>

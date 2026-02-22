@@ -60,7 +60,6 @@ function Navbar() {
     } else {
       window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
     }
-    setMobileOpen(false);
   }
 
   const currentFlag = isRu ? flagRu : flagFr;
