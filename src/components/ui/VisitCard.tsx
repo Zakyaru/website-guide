@@ -1,29 +1,30 @@
 import { Link } from "react-router-dom";
-import Button from "./Button.tsx";
+import Button from "./Button";
+import type { Visit } from "../../types/commun";
 
-type VisitProps = {
-    title: string;
-    slug: string;
-    image_url: string;
-    price: number;
+type Props = {
+  visit: Visit;
 };
 
-export default function VisitCard({title, slug, image_url, price}: VisitProps) {
-    return (
-    <div>
-        <img
-            src={image_url}
-            alt={title}
-            loading="lazy"
-            style={{width: "100%", height: "200px", objectFit: "cover"}}
-        />
-        <div>
-            <h3>{title}</h3>
-            <p>{price}</p>
-        </div>
+export default function VisitCard({ visit }: Props) {
+  const { title, slug, image_url, price } = visit;
+  const priceString = `${price} €`;
+
+  return (
+    <article className="bg-gray-100 rounded-2xl shadow-sm overflow-hidden">
+      <img
+        src={image_url}
+        alt={title}
+        loading="lazy"
+        className="w-full h-72 object-cover"
+      />
+      <div className="p-4">
+        <h3>{title}</h3>
+        <p className="mb-4">{priceString}</p>
         <Link to={`/visits/${slug}`}>
-            <Button variant="primary">En savoir plus</Button>
+          <Button variant="primary">En savoir plus</Button>
         </Link>
-    </div>
-    );
+      </div>
+    </article>
+  );
 }
