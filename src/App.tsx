@@ -6,10 +6,13 @@ import VisitsDetail from "./pages/VisitsDetail";
 import Questions from "./pages/Questions";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound"
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
+
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />

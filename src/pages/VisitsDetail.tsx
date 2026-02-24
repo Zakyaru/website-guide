@@ -31,8 +31,8 @@ export default function VisitsDetail() {
             <span className="text-2xl">{visitsDetail.duration}</span>
           </div>
           <div className="flex items-center gap-2">
-            <FiTag className="text-2xl" />
-            <span className="text-2xl">{priceString}</span>
+            <FiTag className="text-xl" />
+            <span className="text-xl">{priceString}</span>
           </div>
         </div>
 
