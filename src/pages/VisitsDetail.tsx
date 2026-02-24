@@ -2,19 +2,22 @@ import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import { FiClock, FiTag } from "react-icons/fi";
 import Button from "../components/ui/Button";
-import type { Visit } from "../types/commun";
+import type { VisitsType } from "../types/commun";
 
 export default function VisitsDetail() {
   const { t } = useTranslation();
-  const { slug } = useParams();
+  const { duration_slug, title_slug } = useParams();
 
   const visitsList =
     (t("visits.visitsList", {
       returnObjects: true,
-    }) as Visit[]) || [];
+    }) as VisitsType[]) || [];
 
-  const visitsDetail = visitsList.find((item) => item.slug === slug);
-  if (!visitsDetail) return <div>Visite non trouvée</div>;
+  const timeTour = visitsList.find((item) => item.duration_slug === duration_slug);
+  if (!timeTour) return <div>Visite non trouvée (duration slug)</div>;
+  
+  const visitsDetail = timeTour?.visitCardList.find((item) => item.title_slug === title_slug);
+  if (!visitsDetail) return <div>Visite non trouvée (title slug)</div>;
 
   const priceString = `${visitsDetail.price} €`;
   const paragraphs = visitsDetail.paragraphs;
@@ -28,7 +31,7 @@ export default function VisitsDetail() {
         <div className="flex gap-6">
           <div className="flex items-center gap-2">
             <FiClock className="text-2xl" />
-            <span className="text-2xl">{visitsDetail.duration}</span>
+            <span className="text-2xl">{timeTour.duration}</span>
           </div>
           <div className="flex items-center gap-2">
             <FiTag className="text-xl" />

@@ -47,82 +47,160 @@
   },
   "visits": {
     "title": "Catalogue des visites",
-    "description": "TBD",
-    "btn_more":"En savoir plus",
-    "twoHour":"2 heures",
-    "fourHour":"4 heures",
-    "day":"Journée complète 8-9 heures",
-    "special":"Circuits sur plusieurs jours",
+    "description": "Ici un texte explicatif du fonctionnement des visites. Mais quand même assez long juste pour voir ce que ça fait sur 2 lignes",
+    "btn_more": "En savoir plus",
+    "twoHour": "2 heures",
+    "fourHour": "4 heures",
+    "day": "Journée complète 8-9 heures",
+    "special": "Circuits sur plusieurs jours",
     "visitsList": [
       {
         "id": 1,
-        "title":"Chateau Chambord",
-        "slug":"chateau-chambord",
-        "image_url":"/images/chambord_test.webp",
-        "price": 90,
-        "duration":"2h",
-        "paragraphs":[
+        "duration": "2 heures",
+        "duration_slug": "twoHourTour",
+        "visitCardList": [
           {
             "id": 1,
-            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+            "title": "Chateau Chambord",
+            "title_slug": "chateau-chambord",
+            "image_url": "/images/chambord_test.webp",
+            "price": 90,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           },
           {
             "id": 2,
-            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+            "title": "Chateau Chenonceau",
+            "title_slug": "chateau-chenonceau",
+            "image_url": "/images/chenonceau_test.jpg",
+            "price": 75,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Visite de la ville d'Amboise",
+            "title_slug": "visite-amboise",
+            "image_url": "/images/amboise_test.jpg",
+            "price": 115,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
+            "title_slug": "visite-spéciale",
+            "image_url": "/images/loire_test.jpg",
+            "price": 200,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           }
         ]
       },
       {
         "id": 2,
-        "title":"Chateau Chenonceau",
-        "slug":"chateau-chenonceau",
-        "image_url":"/images/chenonceau_test.jpg",
-        "price": 75,
-        "duration":"2h",
-        "paragraphs":[
+        "duration": "4 heures",
+        "duration_slug": "fourHourTour",
+        "visitCardList": [
           {
             "id": 1,
-            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+            "title": "Chateau Chambord",
+            "title_slug": "chateau-chambord",
+            "image_url": "/images/chambord_test.webp",
+            "price": 90,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           },
           {
             "id": 2,
-            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title":"Visite de la ville d'Amboise",
-        "slug":"visite-amboise",
-        "image_url":"/images/amboise_test.jpg",
-        "price": 115,
-        "duration":"4h",
-        "paragraphs":[
-          {
-            "id": 1,
-            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+            "title": "Chateau Chenonceau",
+            "title_slug": "chateau-chenonceau",
+            "image_url": "/images/chenonceau_test.jpg",
+            "price": 75,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           },
           {
-            "id": 2,
-            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title":"Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-        "slug":"visite-spéciale",
-        "image_url":"/images/loire_test.jpg",
-        "price": 200,
-        "duration":"special tour",
-        "paragraphs":[
-          {
-            "id": 1,
-            "text":"Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+            "id": 3,
+            "title": "Visite de la ville d'Amboise",
+            "title_slug": "visite-amboise",
+            "image_url": "/images/amboise_test.jpg",
+            "price": 115,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           },
           {
-            "id": 2,
-            "text":"Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+            "id": 4,
+            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
+            "title_slug": "visite-spéciale",
+            "image_url": "/images/loire_test.jpg",
+            "price": 200,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+              },
+              {
+                "id": 2,
+                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+              }
+            ]
           }
         ]
       }
@@ -133,12 +211,12 @@
     "paragraph": "Vous trouverez ici la liste des questions fréquemment posées, mais n'hésitez pas à me contacter pour toute autre question. Je serai ravi de vous répondre !",
     "questionsList": [
       {
-        "id":1,
+        "id": 1,
         "question": "Сколько нужно дней?",
         "response": "2-3 дня идеально для осмотра классики – основных замков. Если же вы хотели бы охватить все богатство долины (замки к западу от Тура, Сомюр, Анже, Нант), то нужно минимум неделю и 2-3 отельные остановки по маршруту."
       },
       {
-        "id":2,
+        "id": 2,
         "question": "Сколько замков можно посмотреть за день?",
         "response": "Хороший ритм – это два, максимум три замка в день. Лучше два + пешеходная прогулка по городу или визит-дегустация у винодела. Разбавить долгое пребывание в долине можно посещением биопарка Боваль, экскурсией в скальные помещения-грибницы, аббатством Фонтевро и его музеем современного искусства, необычным музеем компаньонов-мастеров в Туре и прогулкой  в теплый период года по самым прекрасным деревушкам Франции и т.д. и т.д."
       },
@@ -148,17 +226,17 @@
         "response": "Для знакомства с классикой замков (Шамбор, Блуа, Шеверни, Шомон, Амбуаз, Шенонсо, Вилландри) лучше остановиться в Амбуазе или Блуа. В самом городе обе эти локации предлагают большой выбор отелей разной ценовой категории. Если вы будете без машины – то это лучший вариант. Вечером вы самостоятельно можете погулять, выбрать понравившийся ресторан, сходить на вечернее световое шоу в замке Блуа. Замки-отели как правило находятся в лесу, с красивым парком вокруг, вневременным шармом и иногда даже переодетым в исторические костюмы персоналом. Так что если вы на машине и любите тишину и природу, то это хороший вариант."
       },
       {
-        "id":4,
+        "id": 4,
         "question": "В какое время года лучше приехать сюда?",
         "response": "Сезон на замках начинается с марта и заканчивается в октябре. Как и везде, лучшие месяцы апрель-июнь и сентябрь-начало октября. Лучше избегать многодневных национальных выходных на Пасху, Вознесение (Ascension) и Пятидесятницу (Pentecôte) – в этот период в основных замках не протолкнуться от толп французов. В июле и августе может быть жарко. А прекраснее всего украшены наши замки весь декабрь: сказочные рождественские декорации компенсируют отсутствие цветения в садах и коротктй световой день."
       },
       {
-        "id":5,
+        "id": 5,
         "question": "Как одеться в мае? В сентябре? Зимой?",
         "response": "Климат на Луаре умеренный океанический. Ходить на воздухе придется много. Лучше всегда иметь с собой пару удобной закрытой обуви типа непромокаемых кроссовок и непродуваемую куртку с капюшоном. Зимой потеплее – на позднюю российскую осень. 5-8 градусов тепла зимой из-за сырости может ощущаться как ноль. Обуви достаточно утепленной осенней. Весной и осенью может быть ветренно и холодно утром и солнечно и тепло после обеда. Поэтому одеваться по принципу луковицы – самый хороший вариант."
       },
       {
-        "id":6,
+        "id": 6,
         "question": "Есть ли электрические зарядки для машин?",
         "response": "С этим проблем возникнуть не должно. На автотрассах, на городских парковках, на первых парковочных местах у замка Шенонсо."
       }

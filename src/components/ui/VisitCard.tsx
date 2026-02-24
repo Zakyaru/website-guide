@@ -2,15 +2,16 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Button from "./Button";
 import { FiTag } from "react-icons/fi";
-import type { Visit } from "../../types/commun";
+import type { VisitCardType } from "../../types/commun";
 
 type Props = {
-  visit: Visit;
+  visit: VisitCardType;
+  duration_slug: string;
 };
 
-export default function VisitCard({ visit }: Props) {
+export default function VisitCard({ visit, duration_slug }: Props) {
   const { t } = useTranslation();
-  const { title, slug, image_url, price } = visit;
+  const { title, title_slug, image_url, price } = visit;
   const priceString = `${price} €`;
 
   return (
@@ -31,7 +32,7 @@ export default function VisitCard({ visit }: Props) {
         </div>
 
         <div className="mt-auto">
-          <Link to={`/visits/${slug}`}>
+          <Link to={`/visits/${duration_slug}/${title_slug}`}>
             <Button variant="primary">{t("visits.btn_more")}</Button>
           </Link>
         </div>
