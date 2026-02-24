@@ -19,15 +19,15 @@ export default function VisitCard({ visit }: Props) {
         src={image_url}
         alt={title}
         loading="lazy"
-        className="w-full h-72 object-cover"
+        className="w-full h-50 sm:h-72 object-cover"
       />
 
       <div className="p-4 flex flex-col flex-1">
-        <span className="text-xl font-semibold">{title}</span>
+        <span className="text-lg sm:text-xl font-semibold">{title}</span>
 
         <div className="mt-1 mb-4 flex items-center gap-2">
-          <FiTag className="text-lg" />
-          <span className="text-lg">{priceString}</span>
+          <FiTag className="text-base sm:text-lg" />
+          <span className="text-base sm:text-lg">{priceString}</span>
         </div>
 
         <div className="mt-auto">
