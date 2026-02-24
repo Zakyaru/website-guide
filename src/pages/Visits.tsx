@@ -1,11 +1,19 @@
 import { useTranslation } from "react-i18next";
 import VisitCard from "../components/ui/VisitCard";
-import type {Visit} from "../types/commun";
+import type { Visit } from "../types/commun";
 import { FiClock } from "react-icons/fi";
+import useEmblaCarousel from "embla-carousel-react";
 
 export default function Visits() {
   const { t } = useTranslation();
-  const visitsList = t("visits.visitsList", {returnObjects: true,}) as Visit[] || [];
+  const visitsList =
+    (t("visits.visitsList", { returnObjects: true }) as Visit[]) || [];
+
+  const [emblaRef] = useEmblaCarousel({
+    loop: true,
+    align: "start",
+    containScroll: false,
+  });
 
   return (
     <section>
@@ -15,39 +23,23 @@ export default function Visits() {
         <FiClock className="text-3xl" />
         <h4>{t("visits.twoHour")}</h4>
       </div>
+
+      {/* Wrapper Embla */}
+      <div className="overflow-hidden" ref={emblaRef}>
+        <div className="flex -ml-6">
+          {visitsList.map((visit) => (
+            <div
+              key={visit.id}
+              className="flex-none w-full sm:w-1/2 pl-6"
+            >
+              <VisitCard visit={visit} />
+            </div>
+          ))}
+        </div>
+      </div>
+
+
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {visitsList.map((visit) => (
-          <VisitCard key={visit.id} visit={visit}/>
-        ))}
-      </div>
-      <div className="mt-8 mb-2 flex items-center gap-3">
-        <FiClock className="text-3xl" />
-        <h4>{t("visits.fourHour")}</h4>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {visitsList.map((visit) => (
-          <VisitCard key={visit.id} visit={visit}/>
-        ))}
-      </div>
-      <div className="mt-8 mb-2 flex items-center gap-3">
-        <FiClock className="text-3xl" />
-        <h4>{t("visits.day")}</h4>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {visitsList.map((visit) => (
-          <VisitCard key={visit.id} visit={visit}/>
-        ))}
-      </div>
-      <div className="mt-8 mb-2 flex items-center gap-3">
-        <FiClock className="text-3xl" />
-        <h4>{t("visits.special")}</h4>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {visitsList.map((visit) => (
-          <VisitCard key={visit.id} visit={visit}/>
-        ))}
-      </div>
     </section>
   );
 }
