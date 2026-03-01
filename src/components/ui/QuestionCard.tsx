@@ -33,7 +33,7 @@ export default function QuestionCard({
       ref={registerButtonRef}
       type="button"
       onClick={onToggle}
-      className={`px-4 py-4 rounded-lg flex items-start gap-4 text-left ${
+      className={`px-4 py-4 rounded-lg flex items-start gap-4 text-left shadow-sm ${
         isOpen ? "bg-light" : "bg-dark"
       }`}
     >

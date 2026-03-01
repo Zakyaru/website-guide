@@ -208,7 +208,7 @@ function Navbar() {
         {/* Panneau latéral */}
         <aside
           id="mobile-drawer"
-          className={`absolute left-0 top-0 h-full w-3/4 max-w-sm bg-gray-50 border-r shadow-lg
+          className={`absolute left-0 top-0 h-full w-3/4 max-w-sm bg-gray-50 border-r border-gray-300 shadow-lg
           transform transition-transform duration-300 ease-out
           ${mobileOpen ? "translate-x-0" : "-translate-x-full"}`}
           role="dialog"
