@@ -9,7 +9,7 @@ export default function About() {
   }) as ParagraphType[];
 
   return (
-    <section>
+    <section className="page-width container-main">
       <h2>{t("about.title")}</h2>
       <div className="mt-4 flex flex-col-reverse sm:flex-row gap-8">
         <div className="w-full space-y-6 sm:w-7/12">

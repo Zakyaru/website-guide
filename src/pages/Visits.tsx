@@ -9,7 +9,7 @@ export default function Visits() {
     (t("visits.visitsList", { returnObjects: true }) as VisitsType[]) || [];
 
   return (
-    <section>
+    <section className="page-width container-main">
       <h2 className="mb-2">{t("visits.title")}</h2>
       <p>{t("visits.description")}</p>
 
@@ -25,6 +25,8 @@ export default function Visits() {
           />
         </div>
       ))}
+
+      
     </section>
   );
 }

@@ -23,7 +23,7 @@ export default function VisitsDetail() {
   const paragraphs = visitsDetail.paragraphs;
 
   return (
-    <section>
+    <section className="page-width container-main">
       <h2>{visitsDetail.title}</h2>
 
       <div className="mt-4 mb-4 flex flex-col gap-4">

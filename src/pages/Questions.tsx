@@ -92,7 +92,7 @@ export default function Questions() {
   }, [openQuestionId]); // on déclenche après chaque changement d'état d'ouverture
 
   return (
-    <section>
+    <section className="page-width container-main">
       <h2>{t("questions.title")}</h2>
       <p className="mt-4">{t("questions.paragraph")}</p>
 

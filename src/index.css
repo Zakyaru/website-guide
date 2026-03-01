@@ -2,6 +2,8 @@
 
 @theme {
     --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-hero: "Cormorant Garamond", serif;
+    --font-hero-2: "MonteCarlo", serif; 
 }
 
 @layer base {
@@ -50,7 +52,7 @@
     }
 
     .container-main {
-        @apply mx-auto pt-8 pb-12;
+        @apply mx-auto pt-6 pb-10;
     }
 
     .bg-navbar {
