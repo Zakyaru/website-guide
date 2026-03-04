@@ -50,7 +50,7 @@ export default function VisitCarousel({ visits, durationSlug }: Props) {
         </button>
 
         <div className="overflow-hidden flex-1" ref={emblaRef}>
-          <div className="flex -ml-6">
+          <div className="flex -ml-6 pb-1">
             {visits.map((visit) => (
               <div
                 key={visit.id}

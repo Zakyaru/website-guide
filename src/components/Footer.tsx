@@ -4,15 +4,15 @@ import { useTranslation } from "react-i18next";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <footer id="contact" className="w-full pt-8 pb-12 bg-primary">
+    <footer id="contact" className="w-full pt-8 pb-12 bg-gray-300">
       <div className="page-width mx-auto flex flex-col items-center gap-6 text-center">
-        <h2 className="text-white">{t("contact.title")}</h2>
+        <h2>{t("contact.title")}</h2>
 
-        <h3 className="text-white">
+        <h3>
           {t("contact.subtitle")}
         </h3>
 
-        <div className="flex flex-col gap-2 text-lg text-white">
+        <div className="flex flex-col gap-2 text-base sm:text-lg">
           <div>+33 6 66 88 65 52</div>
           <div>maria.lescorail@gmail.com</div>
         </div>
@@ -24,7 +24,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="p-1 text-4xl bg-white rounded-md text-pink-600 hover:text-white hover:bg-pink-500 transition-colors"
+            className="p-2 text-4xl bg-white rounded-full text-pink-600 hover:text-white hover:bg-pink-500 transition-colors"
           >
             <FaInstagram />
           </a>
@@ -35,7 +35,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
-            className="p-1 text-4xl bg-white rounded-md text-green-600 hover:text-white hover:bg-green-500 transition-colors"
+            className="p-2 text-4xl bg-white rounded-full text-green-600 hover:text-white hover:bg-green-500 transition-colors"
           >
             <FaWhatsapp />
           </a>
