@@ -10,12 +10,12 @@ export default function Visits() {
 
   return (
     <section className="page-width container-main">
-      <h2 className="mb-2">{t("visits.title")}</h2>
+      <h2 className="mb-4">{t("visits.title")}</h2>
       <p>{t("visits.description")}</p>
 
       {visitsList.map((timeTour) => (
-        <div key={timeTour.id}>
-          <div className="mt-8 mb-2 flex items-center gap-3">
+        <div key={timeTour.id} className="mt-8 flex flex-col gap-3">
+          <div className="flex items-center gap-2">
             <FiClock className="text-3xl" />
             <h4>{timeTour.duration}</h4>
           </div>

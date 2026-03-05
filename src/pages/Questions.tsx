@@ -96,7 +96,7 @@ export default function Questions() {
       <h2>{t("questions.title")}</h2>
       <p className="mt-4">{t("questions.paragraph")}</p>
 
-      <div className="mt-8 flex flex-col gap-4">
+      <div className="mt-6 flex flex-col gap-4">
         {questionsList.map((item) => (
           <QuestionCard
             key={item.id}
