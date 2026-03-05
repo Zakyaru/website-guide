@@ -12,7 +12,7 @@
     }
 
     h1 {
-        @apply text-4xl md:text-5xl font-bold tracking-tight;
+        @apply text-4xl md:text-5xl tracking-tight;
     }
 
     h2 {
