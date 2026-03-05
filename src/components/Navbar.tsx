@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import { FiMenu, FiX } from "react-icons/fi";
-import { FiChevronDown } from "react-icons/fi";
+import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import { FaArrowDown } from "react-icons/fa";
 
 import flagFr from "../assets/flag-fr.svg";
 import flagRu from "../assets/flag-ru.svg";
@@ -116,9 +116,10 @@ function Navbar() {
           <button
             type="button"
             onClick={scrollToContact}
-            className="btn btn-secondary text-sm"
+            className="flex gap-1 items-center btn text-sm bg-gray-100 hover:bg-gray-200"
           >
-            {t("nav.contact")}
+            <FaArrowDown className="text-sm" />
+            <span>{t("nav.contact")}</span>
           </button>
 
           <div className="relative" ref={menuRef}>
