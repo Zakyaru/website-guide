@@ -31,7 +31,7 @@ function Hero() {
           <Button variant="primary" className="w-40">
             {t("home.hero.btn_contact")}
           </Button>
-          <Button variant="secondary" className="text-white bg-white/10 border-white/60 hover:bg-white/10">
+          <Button variant="secondary" className="bg-gray-300">
             {t("home.hero.btn_about")}
           </Button>
         </div>

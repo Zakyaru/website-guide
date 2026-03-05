@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <footer id="contact" className="w-full pt-8 pb-12 bg-gray-300">
-      <div className="page-width mx-auto flex flex-col items-center gap-6 text-center">
+    <footer id="contact" className="w-full pt-8 pb-12 bg-blue-700">
+      <div className="page-width mx-auto flex flex-col items-center gap-6 text-center text-white">
         <h2>{t("contact.title")}</h2>
 
         <h3>

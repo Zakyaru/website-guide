@@ -77,7 +77,7 @@ function Navbar() {
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="md:hidden h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-400 bg-light hover:bg-dark transition"
+            className="md:hidden h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-300 bg-light hover:bg-dark transition"
             aria-label={
               mobileOpen ? "Close navigation menu" : "Open navigation menu"
             }
@@ -101,12 +101,12 @@ function Navbar() {
               {t("nav.visits")}
             </NavLink>
 
-            <NavLink to="/questions" className={navLinkClass}>
-              {t("nav.questions")}
-            </NavLink>
-
             <NavLink to="/about" className={navLinkClass}>
               {t("nav.about")}
+            </NavLink>
+
+            <NavLink to="/questions" className={navLinkClass}>
+              {t("nav.questions")}
             </NavLink>
           </nav>
         </div>
@@ -116,7 +116,7 @@ function Navbar() {
           <button
             type="button"
             onClick={scrollToContact}
-            className="flex gap-1 items-center btn text-sm bg-gray-100 hover:bg-gray-200"
+            className="px-3 py-1 rounded-md cursor-pointer flex gap-1 items-center text-sm bg-gray-100 hover:bg-gray-200 border border-blue-600 hover:border-blue-700"
           >
             <FaArrowDown className="text-sm" />
             <span>{t("nav.contact")}</span>
@@ -126,7 +126,7 @@ function Navbar() {
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
-              className="h-9 px-2 inline-flex items-center gap-1 rounded-md border border-gray-400 bg-light hover:bg-dark transition"
+              className="h-9 px-2 inline-flex items-center gap-1 rounded-md border border-gray-300 bg-light hover:bg-dark hover:border-gray-400 transition"
               aria-haspopup="menu"
               aria-expanded={open}
               aria-label="Change language"
@@ -148,7 +148,7 @@ function Navbar() {
             {open && (
               <div
                 role="menu"
-                className="absolute right-0 mt-2 w-14 rounded-md border border-gray-400 bg-light shadow-sm p-1 flex flex-col gap-1"
+                className="absolute right-0 mt-2 w-14 rounded-md border border-gray-300 bg-light shadow-sm p-1 flex flex-col gap-1"
               >
                 <button
                   type="button"
@@ -220,7 +220,7 @@ function Navbar() {
             <button
               type="button"
               onClick={() => setMobileOpen(false)}
-              className="h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-400 bg-light hover:bg-dark transition"
+              className="h-9 w-9 inline-flex items-center justify-center rounded-md border border-gray-300 bg-light hover:bg-dark transition"
               aria-label="Close navigation menu"
             >
               <FiX className="h-5 w-5 text-gray-800" />
@@ -246,19 +246,19 @@ function Navbar() {
             </NavLink>
 
             <NavLink
-              to="/questions"
-              className={navLinkClass}
-              onClick={() => setMobileOpen(false)}
-            >
-              {t("nav.questions")}
-            </NavLink>
-
-            <NavLink
               to="/about"
               className={navLinkClass}
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.about")}
+            </NavLink>
+
+            <NavLink
+              to="/questions"
+              className={navLinkClass}
+              onClick={() => setMobileOpen(false)}
+            >
+              {t("nav.questions")}
             </NavLink>
           </nav>
         </aside>

@@ -11,8 +11,8 @@ export default function About() {
   return (
     <section className="page-width container-main">
       <h2>{t("about.title")}</h2>
-      <div className="mt-4 flex flex-col-reverse sm:flex-row gap-8">
-        <div className="w-full space-y-6 sm:w-7/12">
+      <div className="mt-4 flex flex-col-reverse sm:flex-row gap-6 sm:gap-8">
+        <div className="w-full space-y-4 md:space-y-6 sm:w-7/12">
           {paragraphs.map((item) => (
             <p key={item.id}>{item.text}</p>
           ))}
