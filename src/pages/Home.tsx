@@ -7,19 +7,20 @@ export default function Home() {
   const { t } = useTranslation();
 
   const paragraphs = t("home.paragraphs", {
-    returnObjects: true
+    returnObjects: true,
   }) as Paragraph[];
 
   return (
-    <main>
+    <>
       <Hero />
-      <h2>{t("home.title")}</h2>
-
-      <div className="mt-10 space-y-6">
-        {paragraphs.map((item) => (
-          <p key={item.id}>{item.text}</p>
-        ))}
-      </div>
-    </main>
+      <section className="page-width container-main">
+        <h2>{t("home.title")}</h2>
+        <div className="mt-4 space-y-4 md:space-y-6">
+          {paragraphs.map((item) => (
+            <p key={item.id}>{item.text}</p>
+          ))}
+        </div>
+      </section>
+    </>
   );
 }

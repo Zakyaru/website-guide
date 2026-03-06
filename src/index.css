@@ -2,6 +2,8 @@
 
 @theme {
     --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-hero: "Cormorant Garamond", serif;
+    --font-hero-2: "MonteCarlo", serif; 
 }
 
 @layer base {
@@ -10,29 +12,33 @@
     }
 
     h1 {
-        @apply text-3xl sm:text-4xl font-bold tracking-tight;
+        @apply text-4xl md:text-5xl tracking-tight;
     }
 
     h2 {
-        @apply mt-12 text-3xl sm:text-4xl font-bold tracking-tight;
+        @apply text-2xl md:text-3xl font-semibold tracking-tight;
     }
 
     h3 {
-        @apply text-xl sm:text-2xl font-semibold;
+        @apply text-xl md:text-2xl font-semibold;
+    }
+
+    h4 {
+        @apply text-3xl md:text-4xl font-bold;
     }
 
     p {
-        @apply text-base sm:text-lg;
+        @apply text-base md:text-lg leading-relaxed;
     }
 }
 
 @layer components {
     .btn {
-        @apply px-2 py-1 rounded-md border-2 border-blue-600 hover:border-blue-700
+        @apply px-3 py-1 rounded-md border-2 border-indigo-600 hover:border-indigo-700 cursor-pointer
     }
 
     .btn-primary {
-        @apply bg-blue-600 hover:bg-blue-700 text-white;
+        @apply bg-indigo-600 hover:bg-indigo-700 text-white;
     }
 
     .btn-secondary {
@@ -42,11 +48,11 @@
 
 @layer utilities {
     .page-width {
-        @apply max-w-5xl px-6;
+        @apply w-full max-w-5xl px-6;
     }
 
     .container-main {
-        @apply mx-auto pt-8 pb-12;
+        @apply mx-auto pt-4 pb-8 md:pt-6 md:pb-10;
     }
 
     .bg-navbar {
@@ -70,7 +76,11 @@
     }
 
     .bg-primary {
-        @apply bg-blue-600;
+        @apply bg-indigo-600;
+    }
+
+    .text-primary {
+        @apply text-indigo-600
     }
 
     .text-main {
@@ -79,5 +89,9 @@
 
     .text-muted {
         @apply text-gray-500;
+    }
+
+    .link {
+        @apply text-sm font-medium hover:underline underline-offset-4;
     }
 }
