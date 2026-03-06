@@ -116,7 +116,7 @@ function Navbar() {
           <button
             type="button"
             onClick={scrollToContact}
-            className="px-3 py-1 rounded-md cursor-pointer flex gap-1 items-center text-sm bg-gray-100 hover:bg-gray-200 border border-blue-600 hover:border-blue-700"
+            className="px-3 py-1 rounded-md cursor-pointer flex gap-1 items-center text-sm bg-gray-100 hover:bg-gray-200 border border-indigo-600 hover:border-indigo-700"
           >
             <FaArrowDown className="text-sm" />
             <span>{t("nav.contact")}</span>

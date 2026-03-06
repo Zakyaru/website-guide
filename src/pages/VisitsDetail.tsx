@@ -76,7 +76,7 @@ export default function VisitsDetail() {
         />
       </figure>
 
-      <div className="mt-6 space-y-6">
+      <div className="mt-6 space-y-4 md:space-y-6">
         {paragraphs.map((item) => (
           <p key={item.id} className="leading-relaxed">
             {item.text}

@@ -27,9 +27,9 @@ function Hero() {
         <div className="mt-8 flex flex-wrap gap-3">
           {/* Bouton principal */}
           <Link to={"/visits"}>
-            <button className="px-6 py-3 bg-blue-600 text-white text-sm font-medium tracking-wide uppercase rounded-sm hover:bg-blue-700 transition-colors duration-200 cursor-pointer">
-  Catalogue des visites
-</button>
+            <button className="px-6 py-3 bg-indigo-600 text-white text-sm font-medium tracking-wide uppercase rounded-sm hover:bg-indigo-700 transition-colors duration-200 cursor-pointer">
+              Catalogue des visites
+            </button>
           </Link>
 
           {/* Bouton secondaire */}

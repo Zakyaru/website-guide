@@ -38,7 +38,7 @@ export default function QuestionCard({
       }`}
     >
       {/* Chevron qui pivote quand la réponse est ouverte */}
-      <div className="mt-0.5">
+      <div className="md:mt-0.5">
         <FiChevronRight
           className={`h-6 w-6 text-gray-800 transition-transform ${
             isOpen ? "rotate-90" : ""
@@ -49,11 +49,11 @@ export default function QuestionCard({
       {/* Contenu textuel */}
       <div className="pr-2">
         {/* Question toujours visible */}
-        <div className="text-lg">{question}</div>
+        <div className="text-base md:text-lg">{question}</div>
 
         {/* Réponse affichée uniquement si ouverte */}
         {isOpen && (
-          <div className="mt-3 text-muted">
+          <div className="mt-3 text-muted text-sm md:text-base">
             {response}
           </div>
         )}

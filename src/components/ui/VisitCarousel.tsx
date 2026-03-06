@@ -78,7 +78,7 @@ export default function VisitCarousel({ visits, durationSlug }: Props) {
             key={visit.id}
             onClick={() => emblaApi?.scrollTo(index)}
             className={`w-2 h-2 rounded-full transition-colors ${
-              index === selectedIndex ? "bg-blue-600" : "bg-gray-300"
+              index === selectedIndex ? "bg-indigo-600" : "bg-gray-300"
             }`}
             aria-label={`Aller à la slide ${index + 1}`}
           />
