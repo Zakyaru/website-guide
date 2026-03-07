@@ -20,7 +20,7 @@ export default function VisitCard({ visit, duration_slug }: Props) {
         src={image_url}
         alt={title}
         loading="lazy"
-        className="w-full h-50 sm:h-72 object-cover"
+        className="w-full h-60 sm:h-72 object-cover"
       />
 
       <div className="p-4 flex flex-col flex-1">

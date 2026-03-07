@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Base/wall -->
+  <rect x="6" y="14" width="20" height="14" rx="1" fill="#4A5568"/>
+  <!-- Door -->
+  <rect x="13" y="20" width="6" height="8" rx="3" fill="#2D3748"/>
+  <!-- Windows -->
+  <rect x="8" y="17" width="3" height="3" rx="0.5" fill="#ECC94B"/>
+  <rect x="21" y="17" width="3" height="3" rx="0.5" fill="#ECC94B"/>
+  <!-- Left tower -->
+  <rect x="3" y="8" width="8" height="20" rx="1" fill="#5A6577"/>
+  <!-- Left tower battlements -->
+  <rect x="3" y="5" width="2.5" height="4" fill="#5A6577"/>
+  <rect x="8.5" y="5" width="2.5" height="4" fill="#5A6577"/>
+  <!-- Right tower -->
+  <rect x="21" y="8" width="8" height="20" rx="1" fill="#5A6577"/>
+  <!-- Right tower battlements -->
+  <rect x="21" y="5" width="2.5" height="4" fill="#5A6577"/>
+  <rect x="26.5" y="5" width="2.5" height="4" fill="#5A6577"/>
+  <!-- Center tower -->
+  <rect x="11" y="6" width="10" height="14" rx="1" fill="#636D7E"/>
+  <!-- Center tower battlements -->
+  <rect x="11" y="3" width="3" height="4" fill="#636D7E"/>
+  <rect x="19" y="3" width="3" height="4" fill="#636D7E"/>
+  <!-- Center tower flag pole -->
+  <line x1="16" y1="0" x2="16" y2="4" stroke="#A0AEC0" stroke-width="0.8"/>
+  <!-- Flag -->
+  <polygon points="16,0.5 20,2 16,3.5" fill="#E53E3E"/>
+  <!-- Tower windows -->
+  <rect x="5" y="11" width="2.5" height="3" rx="0.5" fill="#ECC94B"/>
+  <rect x="24.5" y="11" width="2.5" height="3" rx="0.5" fill="#ECC94B"/>
+  <circle cx="16" cy="10" r="1.8" fill="#ECC94B"/>
+  <!-- Left tower lower window -->
+  <rect x="5" y="17" width="2.5" height="3" rx="0.5" fill="#ECC94B"/>
+  <!-- Right tower lower window -->
+  <rect x="24.5" y="17" width="2.5" height="3" rx="0.5" fill="#ECC94B"/>
+</svg>
