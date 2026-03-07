@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import { FaArrowDown } from "react-icons/fa";
 
-import flagFr from "../assets/flag-fr.svg";
-import flagRu from "../assets/flag-ru.svg";
+import flagFr from "../assets/flag-fr-v2.svg";
+import flagRu from "../assets/flag-ru-v2.svg";
 
 type Lang = "fr" | "ru";
 
@@ -92,7 +92,7 @@ function Navbar() {
           </button>
 
           {/* Menu desktop - visible uniquement >= md */}
-          <nav className="hidden md:flex items-center gap-6">
+          <nav className="hidden md:flex items-center gap-6 text-sm">
             <NavLink to="/" className={navLinkClass} end>
               {t("nav.home")}
             </NavLink>
@@ -216,7 +216,7 @@ function Navbar() {
           aria-modal="true"
         >
           <div className="h-16 px-4 flex items-center justify-between">
-            <span className="font-semibold text-main">Menu</span>
+            <span className="font-semibold text-lg">Menu</span>
             <button
               type="button"
               onClick={() => setMobileOpen(false)}
@@ -227,7 +227,7 @@ function Navbar() {
             </button>
           </div>
 
-          <nav className="px-4 py-4 flex flex-col gap-3">
+          <nav className="px-4 py-4 flex flex-col gap-4 text-base">
             <NavLink
               to="/"
               end

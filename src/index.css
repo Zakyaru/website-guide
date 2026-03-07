@@ -92,6 +92,6 @@
     }
 
     .link {
-        @apply text-sm font-medium hover:underline underline-offset-4;
+        @apply font-medium hover:underline underline-offset-4;
     }
 }
