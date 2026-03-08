@@ -16,8 +16,8 @@ export default function Visits() {
       {visitsList.map((timeTour) => (
         <div key={timeTour.id} className="mt-8 flex flex-col gap-3">
           <div className="flex items-center gap-2">
-            <FiClock className="text-2xl md:text-3xl" />
-            <h2>{timeTour.duration}</h2>
+            <FiClock className="text-xl md:text-2xl" />
+            <span className="text-xl md:text-2xl font-semibold">{timeTour.duration}</span>
           </div>
           <VisitCarousel
             visits={timeTour.visitCardList}
