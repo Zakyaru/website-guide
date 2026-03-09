@@ -3,7 +3,7 @@
     "home": "Главная",
     "visits": "Экскурсии",
     "about": "Обо мне",
-    "questions": "Вопросы",
+    "questions": "Часто задаваемые вопросы",
     "contact": "Написать мне"
   },
   "home": {
@@ -318,7 +318,7 @@
             "id": 1,
             "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
             "title_slug": "azay-le-rideau-villandry",
-            "image_url": "/images/chambord_test.webp",
+            "image_url": "/images/villandry.webp",
             "price": 300,
             "paragraphs": [
               {
@@ -339,7 +339,7 @@
             "id": 2,
             "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
             "title_slug": "amboise",
-            "image_url": "/images/chenonceau_test.jpg",
+            "image_url": "/images/amboise.webp",
             "price": 300,
             "paragraphs": [
               {
@@ -364,7 +364,7 @@
             "id": 3,
             "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
             "title_slug": "blois",
-            "image_url": "/images/amboise_test.jpg",
+            "image_url": "/images/visite_enfant.webp",
             "price": 300,
             "paragraphs": [
               {
@@ -392,7 +392,7 @@
             "id": 1,
             "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
             "title_slug": "azay-le-rideau-villandry",
-            "image_url": "/images/chambord_test.webp",
+            "image_url": "/images/villandry.webp",
             "price": 300,
             "paragraphs": [
               {
@@ -413,7 +413,7 @@
             "id": 2,
             "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
             "title_slug": "amboise",
-            "image_url": "/images/chenonceau_test.jpg",
+            "image_url": "/images/amboise.webp",
             "price": 300,
             "paragraphs": [
               {
@@ -436,35 +436,22 @@
           },
           {
             "id": 3,
-            "title": "Visite de la ville d'Amboise",
-            "title_slug": "visite-amboise",
-            "image_url": "/images/amboise_test.jpg",
-            "price": 115,
+            "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
+            "title_slug": "blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": 300,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "На заре 16 века Блуа был королевской столицей, и это не могло не отразиться в его облике. В ходе пешеходной экскурсии мы поднимемся до Епископской терассы, полюбуемся уникальным видом на Луару открывающимся с нее. Будем останавливаться перед городскими особняками, построенными в верхнем городе королевскими министрами. Спустимся по романтичным улицам-лесенкам в нижний ремесленно-торговый фахверковый город, дойдем до церкви св. Николая."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-            "title_slug": "visite-spéciale",
-            "image_url": "/images/loire_test.jpg",
-            "price": 200,
-            "paragraphs": [
-              {
-                "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "И конечно же все узнаем про замок Блуа-уникальный сплав разных архитектурных стилей и эпох, самую настоящую грамматику французской архитектуры. С какой стороны не подойдешь к замку – он открывается совершенно другим. Почему так произошло, я расскажу вам в ходе экскурсии."
               },
               {
-                "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "id": 3,
+                "text": "Семь королей ( и это не считая королев и младших братьев) жили в этом замке, здесь освящали боевое знамя Жанны д’Арк, убивали знаменитых де Гизов – многочисленные истории о любви и ненависти, верности и предательстве, переменчивой удаче ждут Вас."
               }
             ]
           }
