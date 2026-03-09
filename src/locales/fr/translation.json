@@ -2,16 +2,16 @@
   "nav": {
     "home": "Accueil",
     "visits": "Les visites",
-    "questions": "Questions fréquentes",
     "about": "Qui suis-je ?",
+    "questions": "Questions fréquentes",
     "contact": "Me contacter"
   },
   "home": {
     "hero": {
-      "title": "Des visites guidées faites avec passion pour petits et grands",
-      "name": "Avec Maria Kouzmina, guide conférencière certifiée",
-      "btn_contact": "Catalogue des visites",
-      "btn_about": "Qui suis-je ?"
+      "title": "Découvrez la vallée de la Loire avec Maria Kouzmina",
+      "subtitle": "Visites conçues avec passion pour petits et grands",
+      "btn_action1": "Catalogue des visites",
+      "btn_action2": "Qui suis-je ?"
     },
     "title": "Pourquoi vous devez absolument venir ici",
     "paragraphs": [
@@ -47,12 +47,9 @@
   },
   "visits": {
     "title": "Catalogue des visites",
-    "description": "Ici un texte explicatif du fonctionnement des visites. Mais quand même assez long juste pour voir ce que ça fait sur 2 lignes",
+    "description": "Découvrez ici les différentes visites que je propose. Elles sont organisées par durée pour vous aider à choisir celle qui correspond le mieux à votre programme. Vous pouvez opter pour une seule visite ou en combiner plusieurs selon vos envies.",
     "btn_more": "En savoir plus",
-    "twoHour": "2 heures",
-    "fourHour": "4 heures",
-    "day": "Journée complète 8-9 heures",
-    "special": "Circuits sur plusieurs jours",
+    "btn_detail_action" : "Choisir cette visite",
     "visitsList": [
       {
         "id": 1,

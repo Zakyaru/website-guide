@@ -24,11 +24,11 @@ export default function VisitCard({ visit, duration_slug }: Props) {
       />
 
       <div className="p-4 flex flex-col flex-1">
-        <span className="text-lg sm:text-xl font-semibold">{title}</span>
+        <span className="text-base md:text-lg font-semibold">{title}</span>
 
         <div className="mt-1 mb-4 flex items-center gap-2">
-          <FiTag className="text-base sm:text-lg" />
-          <span className="text-base sm:text-lg">{priceString}</span>
+          <FiTag className="text-base md:text-lg" />
+          <span className="text-base md:text-lg">{priceString}</span>
         </div>
 
         <div className="mt-auto">

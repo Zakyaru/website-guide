@@ -61,8 +61,8 @@ export default function VisitsDetail() {
         </div>
 
         <div className="flex">
-          <Button variant="primary" onClick={scrollToContact} className="w-48">
-            Choisir cette visite
+          <Button variant="primary" onClick={scrollToContact} className="px-6">
+            {t("visits.btn_detail_action")}
           </Button>
         </div>
       </div>
