@@ -53,7 +53,7 @@ export default function QuestionCard({
 
         {/* Réponse affichée uniquement si ouverte */}
         {isOpen && (
-          <div className="mt-3 text-muted text-sm md:text-base">
+          <div className="mt-3 text-muted text-base md:text-lg">
             {response}
           </div>
         )}

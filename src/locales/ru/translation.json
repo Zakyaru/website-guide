@@ -2,16 +2,16 @@
   "nav": {
     "home": "Главная",
     "visits": "Экскурсии",
-    "questions": "Вопросы",
     "about": "Обо мне",
+    "questions": "Часто задаваемые вопросы",
     "contact": "Написать мне"
   },
   "home": {
     "hero": {
-      "title": "Экскурсии с душой для взрослых и детей",
-      "name": "Гид с лицензией | Долинa Луары",
-      "btn_contact": "Связаться",
-      "btn_about": "Обо мне"
+      "title": "Откройте для себя долину Луары вместе с Марией Кузьминой",
+      "subtitle": "Экскурсии с душой для взрослых и детей",
+      "btn_action1": "Каталог экскурсий",
+      "btn_action2": "Обо мне"
     },
     "title": "Почему надо обязательно приехать сюда",
     "paragraphs": [
@@ -46,84 +46,190 @@
     ]
   },
   "visits": {
-    "title": "Catalogue des visites",
-    "description": "Ici un texte explicatif du fonctionnement des visites. Mais quand même assez long juste pour voir ce que ça fait sur 2 lignes",
-    "btn_more": "En savoir plus",
-    "twoHour": "2 heures",
-    "fourHour": "4 heures",
-    "day": "Journée complète 8-9 heures",
-    "special": "Circuits sur plusieurs jours",
+    "title": "Каталог экскурсий",
+    "description": "Здесь вы можете познакомиться с различными экскурсиями, которые я предлагаю.",
+    "btn_more": "Подробнее",
+    "btn_detail_action" : "Выбрать эту экскурсию",
     "visitsList": [
       {
         "id": 1,
-        "duration": "2 heures",
+        "duration": "2 часа",
         "duration_slug": "twoHourTour",
         "visitCardList": [
           {
             "id": 1,
-            "title": "Chateau Chambord",
-            "title_slug": "chateau-chambord",
-            "image_url": "/images/chambord_test.webp",
-            "price": 90,
+            "title": "Леонардо да Винчи в Амбуазе: Кло Люсе",
+            "title_slug": "amboise-clos-luce",
+            "image_url": "/images/amboise.webp",
+            "price": 200,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Не все знают, что знаменитый итальянец закончил свой земной путь в небольшом французском городке Амбуазе. В ходе экскурсии я познакомлю вас с последним домом Леонардо и с многочисленными ликами его творчества."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Эта экскурсия идеально подходит для туристов с детьми так как при замке есть просторный и тенистый парк с макетами и детской площадкой."
               }
             ]
           },
           {
             "id": 2,
-            "title": "Chateau Chenonceau",
-            "title_slug": "chateau-chenonceau",
-            "image_url": "/images/chenonceau_test.jpg",
-            "price": 75,
+            "title": "Замок тысячи саламандр : Шамбор",
+            "title_slug": "chambord",
+            "image_url": "/images/chambord.webp",
+            "price": 200,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Замок Шамбор - настоящий архетип замков Луары. Не увидев его хоть раз, сложно составить правильное впечатление о долине Луары."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Задумывается он как «маленький» охотничий домик для короля, его друзей и свиты. Становится же на деле символом абсолютной королевской власти, силы и «пускания пыли в глаза» европейским монархам-противникам, в лице ненавистного императора Священной Римской империи Карла V Габсбурга."
+              },
+              {
+                "id": 3,
+                "text": "В ходе экскурсии я покажу вам знаменитую лестницу. Мы поговорим о судьбе Шамбора и его последующих знаменитых владельцах, а также о том, какую роль он сыграл во время второй мировой войны."
+              },
+              {
+                "id": 4,
+                "text": "Эта экскурсия тоже идеально подходит для туристов с детьми, так в Шамборе мы будем много двигаться и искать разные каменные символы и знаки. А начать или закончить знакомство с Шамбором в сезон можно с конного спектакля или прогулки вокруг замка на элетрической лодочке, гольфмашине или велосипеде."
               }
             ]
           },
           {
             "id": 3,
-            "title": "Visite de la ville d'Amboise",
-            "title_slug": "visite-amboise",
-            "image_url": "/images/amboise_test.jpg",
-            "price": 115,
+            "title": "Женский замок Шенонсо",
+            "title_slug": "chenonceau",
+            "image_url": "/images/chenonceau.webp",
+            "price": 200,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Как правило, при упоминании долины Луары, возникает картинка изящного замка-моста, перекинутого через реку. Имя этому замку Шенонсо, и он действительно очень любим и посещаем туристами. В противовес имперскому духу Шамбора, этот замок задумывался и строился как небольшая и уютная загородная вилла."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Владелицами всегда были женщины, и какие! Знаменитая королевская фаворитка Диана де Пуатье, затем и сама королева Екатерина Медичи любили и облагораживали этот замок, разбивали вокруг него партерные сады по итальянской моде."
+              },
+              {
+                "id": 3,
+                "text": "В 18 и 19 веке замок тоже не пустовал, у него были другие заботливые хозяйки, сохранившие его во время французской революции и передавшие его в лучшем виде руки современных владельцев."
+              },
+              {
+                "id": 4,
+                "text": "В ходе экскурсии мы познакомимся с историей строительства и преобразования замка, поговорим о всех знаменитых хозяйках, о ландшафтном парке вокруг, о мастере-флористе, украшающем богатые интереьеры замка 365 дней в году."
               }
             ]
           },
           {
             "id": 4,
-            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-            "title_slug": "visite-spéciale",
-            "image_url": "/images/loire_test.jpg",
+            "title": "Дворянская усадьба Шеверни",
+            "title_slug": "cheverny",
+            "image_url": "/images/cheverny.webp",
             "price": 200,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Этот факт часто удивляет туристов, но среди луарских замков лишь несколько являются государсвенными памятниками. Большая часть принадлежит частным владельцам: семьям, фондам, организациям."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Шеверни – один из лучших примеров прекрасно сохранившегося, богато меблированного замка, с ухоженным пейзажным парком 19 века, охотничей сворой гончих, живущей на псарне, оранжереей и конюшней, в котором строившая его семья  по сей день живет."
+              },
+              {
+                "id": 3,
+                "text": "Трагическая любовная история стала причиной  кардинальной перестройки старинного замка в начале 17 века."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Город Св. Мартина: Тур",
+            "title_slug": "tours",
+            "image_url": "/images/tours.webp",
+            "price": 180,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "В ходе двухчасовой пешеходной экскурсии мы познакомимся со старинным городом туронов, ставшим к началу 16 века королевким. А также рассмотрим подробно в витражах собора св. Гасьяна жизнь и земные дела одного из важнейших святых Франции Мартина Милосердного, посетим старинный Мартинополис и новую базилику."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Королевский замок Амбуаз",
+            "title_slug": "amboise-chateau",
+            "image_url": "/images/amboise.webp",
+            "price": 200,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Много веков высоко стоит на горе над Луарой крепость Амбуаз. И уже полтысячелетия покоится в этой крепости тело Леонардо да Винчи."
+              },
+              {
+                "id": 2,
+                "text": "А ведь именно в этом королевском замке начиналась славная история итальянских походов. Культура итальянского возрождения постепенно проникает во Францию. Замок перестраивается, разбиваются первые ренессансные сады."
+              },
+              {
+                "id": 3,
+                "text": "В ходе экскурсии мы познакомимся с королями, жившим в этом замке, их бытом и привычками, узнаем обстоятельства переезда сюда Леонардо да Винчи, увидим его могилу в часовне Св. Губерта, которая сама по себе шедевр, полюбуемся потрясающим видом сверху на окрестный пейзаж."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "Шомон-на-Луаре: замок и сады",
+            "title_slug": "chaumont-sur-loire",
+            "image_url": "/images/vue_loire.webp",
+            "price": 200,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Еще один действительно «луарский» замок = стоящий высоко над Луарой, с терассы и гостиной начала 20 века которого открывается один из самых красивых речных видов долины. В исторических помещениях мы поговорим с вами о любви Екатерины Медичи к астрологии и предсказаниям, о ее сопернице Диане де Пуатье. Продолжит нашу экскурсию история последней владелицы замка принцессы Брольи – красивой, богатой и взбалмошной женщины, прокутившей в удовольствиях, приемах и путешествиях свое огромное состояние."
+              },
+              {
+                "id": 2,
+                "text": "Оставшийся от нее прекрасный пейзажный парк, конюшни, сенной сарай и другие подсобные помещения служат сегодня выставочным залом под открытым небом для современных скульпторов и художников. С апреля по октябрь здесь ежегодно проводится фестиваль современного ландшафтно-паркового искусства."
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "Замок семи королей : Блуа",
+            "title_slug": "chateau-blois",
+            "image_url": "/images/vue_loire.webp",
+            "price": 200,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Замок Блуа-уникальный сплав разных архитектурных стилей и эпох, самая настоящая грамматика французской архитектуры. С какой стороны не подойдешь к замку – он открывается совершенно другим. Почему так произошло, я расскажу вам в ходе экскурсии."
+              },
+              {
+                "id": 2,
+                "text": "На заре 16 века Блуа был королевской столицей, и это не могло не отразиться в его облике и в интерьерах. Семь королей ( и это не считая королев и младших братьев) жили в этом замке, здесь освящали боевое знамя Жанны д’Арк, убивали знаменитых де Гизов – многочисленные истории о любви и ненависти, верности и предательстве, переменчивой удаче ждут Вас."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Город Жанны д’Арк Орлеан",
+            "title_slug": "orleans",
+            "image_url": "/images/vue_loire.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Жанна д Арк вошла в историю как Орлеанская Дева. Однако она не родилась здесь и не умерла. В самый разгар Столетней войны она освободила этот второй по значимости после Парижа город и стала для самого города его символом. Все здесь напоминает о Жанне: памятники на площадях, вбитые в мостовую декоративные гвозди, витражи в нефе собора."
+              },
+              {
+                "id": 2,
+                "text": "Мы пройдем с вами по старинным улицам, поговорим о роли, которую город играл в прошлом."
+              },
+              {
+                "id": 3,
+                "text": "Ну, а если Вам повезет и вы попадете сюда в те «единственные» дни в начале мая, когда город буквально чествует свою героиню, украшая средневековыми штандартами собор, разыгрывая как средневековую мистерию те десять дней, за которые девушка сумела освободить осажденный уже год Орлеан, даря жителям и гостям города музыкальные концерты – то этот немного забытый луарский город останется в Вашем сердце навсегда."
               }
             ]
           }
@@ -131,74 +237,221 @@
       },
       {
         "id": 2,
-        "duration": "4 heures",
+        "duration": "4 часа",
         "duration_slug": "fourHourTour",
         "visitCardList": [
           {
             "id": 1,
-            "title": "Chateau Chambord",
-            "title_slug": "chateau-chambord",
-            "image_url": "/images/chambord_test.webp",
-            "price": 90,
+            "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
+            "title_slug": "azay-le-rideau-villandry",
+            "image_url": "/images/villandry.webp",
+            "price": 300,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Если вы хотите погрузиться в красоту и гармонию, тишину садов и парков двух камерных замков, то это программа для вас."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Подобный «брильянту в оправе из изумрудов», отраженный в ленивых зеленоватых водах Эндра, открывается взгляду замок Азе-лё-Ридо. Маленький и компактный, с красивейшей лестницей и богатейше украшенными коньками крыш, с первого взгляда он покоряет сердце любого посетителя."
+              },
+              {
+                "id": 3,
+                "text": "Чуть дальше на север раскинул в долине Шера, ещё одного «вассала» Луары, свои знаменитые сады замок Вилландри. Для Жоакима Карвалло и его жены воссоздание партеров ренессансных садов становится делом их жизни, а их правнук продолжает семейное дело и традицию."
               }
             ]
           },
           {
             "id": 2,
-            "title": "Chateau Chenonceau",
-            "title_slug": "chateau-chenonceau",
-            "image_url": "/images/chenonceau_test.jpg",
-            "price": 75,
+            "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
+            "title_slug": "amboise",
+            "image_url": "/images/amboise.webp",
+            "price": 300,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Много веков высоко стоит на горе над Луарой крепость Амбуаз. И уже полтысячелетия покоится в этой крепости тело Леонардо да Винчи."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "А ведь именно в этом королевском замке начиналась славная история итальянских походов. Культура итальянского возрождения постепенно проникает во Францию. Замок перестраивается, разбиваются первые ренессансные сады."
+              },
+              {
+                "id": 3,
+                "text": "В ходе экскурсии мы познакомимся с королями, жившим в этом замке, их бытом и привычками, узнаем обстоятельства переезда сюда Леонардо да Винчи, увидим его могилу в часовне Св. Губерта, которая сама по себе шедевр, полюбуемся потрясающим видом сверху на окрестный пейзаж."
+              },
+              {
+                "id": 4,
+                "text": "Выйдя из замка через башню Юрто, мы отправимся пешком по старинной улице в Кло Люсе - последний дом Леонардо. Внутри старинных стен и в разбитом напротив замка просторном парке я познакомлю вас с многочисленными ликами творчества знаменитого итальянца."
               }
             ]
           },
           {
             "id": 3,
-            "title": "Visite de la ville d'Amboise",
-            "title_slug": "visite-amboise",
-            "image_url": "/images/amboise_test.jpg",
-            "price": 115,
+            "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
+            "title_slug": "blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": 300,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "На заре 16 века Блуа был королевской столицей, и это не могло не отразиться в его облике. В ходе пешеходной экскурсии мы поднимемся до Епископской терассы, полюбуемся уникальным видом на Луару открывающимся с нее. Будем останавливаться перед городскими особняками, построенными в верхнем городе королевскими министрами. Спустимся по романтичным улицам-лесенкам в нижний ремесленно-торговый фахверковый город, дойдем до церкви св. Николая."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "И конечно же все узнаем про замок Блуа-уникальный сплав разных архитектурных стилей и эпох, самую настоящую грамматику французской архитектуры. С какой стороны не подойдешь к замку – он открывается совершенно другим. Почему так произошло, я расскажу вам в ходе экскурсии."
+              },
+              {
+                "id": 3,
+                "text": "Семь королей ( и это не считая королев и младших братьев) жили в этом замке, здесь освящали боевое знамя Жанны д’Арк, убивали знаменитых де Гизов – многочисленные истории о любви и ненависти, верности и предательстве, переменчивой удаче ждут Вас."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "duration": "День 8-9 часов",
+        "duration_slug": "dayTour",
+        "visitCardList": [
+          {
+            "id": 1,
+            "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
+            "title_slug": "azay-le-rideau-villandry",
+            "image_url": "/images/villandry.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Если вы хотите погрузиться в красоту и гармонию, тишину садов и парков двух камерных замков, то это программа для вас."
+              },
+              {
+                "id": 2,
+                "text": "Подобный «брильянту в оправе из изумрудов», отраженный в ленивых зеленоватых водах Эндра, открывается взгляду замок Азе-лё-Ридо. Маленький и компактный, с красивейшей лестницей и богатейше украшенными коньками крыш, с первого взгляда он покоряет сердце любого посетителя."
+              },
+              {
+                "id": 3,
+                "text": "Чуть дальше на север раскинул в долине Шера, ещё одного «вассала» Луары, свои знаменитые сады замок Вилландри. Для Жоакима Карвалло и его жены воссоздание партеров ренессансных садов становится делом их жизни, а их правнук продолжает семейное дело и традицию."
               }
             ]
           },
           {
-            "id": 4,
-            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-            "title_slug": "visite-spéciale",
-            "image_url": "/images/loire_test.jpg",
-            "price": 200,
+            "id": 2,
+            "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
+            "title_slug": "amboise",
+            "image_url": "/images/amboise.webp",
+            "price": 300,
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Много веков высоко стоит на горе над Луарой крепость Амбуаз. И уже полтысячелетия покоится в этой крепости тело Леонардо да Винчи."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "А ведь именно в этом королевском замке начиналась славная история итальянских походов. Культура итальянского возрождения постепенно проникает во Францию. Замок перестраивается, разбиваются первые ренессансные сады."
+              },
+              {
+                "id": 3,
+                "text": "В ходе экскурсии мы познакомимся с королями, жившим в этом замке, их бытом и привычками, узнаем обстоятельства переезда сюда Леонардо да Винчи, увидим его могилу в часовне Св. Губерта, которая сама по себе шедевр, полюбуемся потрясающим видом сверху на окрестный пейзаж."
+              },
+              {
+                "id": 4,
+                "text": "Выйдя из замка через башню Юрто, мы отправимся пешком по старинной улице в Кло Люсе - последний дом Леонардо. Внутри старинных стен и в разбитом напротив замка просторном парке я познакомлю вас с многочисленными ликами творчества знаменитого итальянца."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
+            "title_slug": "blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "На заре 16 века Блуа был королевской столицей, и это не могло не отразиться в его облике. В ходе пешеходной экскурсии мы поднимемся до Епископской терассы, полюбуемся уникальным видом на Луару открывающимся с нее. Будем останавливаться перед городскими особняками, построенными в верхнем городе королевскими министрами. Спустимся по романтичным улицам-лесенкам в нижний ремесленно-торговый фахверковый город, дойдем до церкви св. Николая."
+              },
+              {
+                "id": 2,
+                "text": "И конечно же все узнаем про замок Блуа-уникальный сплав разных архитектурных стилей и эпох, самую настоящую грамматику французской архитектуры. С какой стороны не подойдешь к замку – он открывается совершенно другим. Почему так произошло, я расскажу вам в ходе экскурсии."
+              },
+              {
+                "id": 3,
+                "text": "Семь королей ( и это не считая королев и младших братьев) жили в этом замке, здесь освящали боевое знамя Жанны д’Арк, убивали знаменитых де Гизов – многочисленные истории о любви и ненависти, верности и предательстве, переменчивой удаче ждут Вас."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "duration": "Многодневные экскурсионные туры",
+        "duration_slug": "severalDayTour",
+        "visitCardList": [
+          {
+            "id": 1,
+            "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
+            "title_slug": "azay-le-rideau-villandry",
+            "image_url": "/images/villandry.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Если вы хотите погрузиться в красоту и гармонию, тишину садов и парков двух камерных замков, то это программа для вас."
+              },
+              {
+                "id": 2,
+                "text": "Подобный «брильянту в оправе из изумрудов», отраженный в ленивых зеленоватых водах Эндра, открывается взгляду замок Азе-лё-Ридо. Маленький и компактный, с красивейшей лестницей и богатейше украшенными коньками крыш, с первого взгляда он покоряет сердце любого посетителя."
+              },
+              {
+                "id": 3,
+                "text": "Чуть дальше на север раскинул в долине Шера, ещё одного «вассала» Луары, свои знаменитые сады замок Вилландри. Для Жоакима Карвалло и его жены воссоздание партеров ренессансных садов становится делом их жизни, а их правнук продолжает семейное дело и традицию."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
+            "title_slug": "amboise",
+            "image_url": "/images/amboise.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Много веков высоко стоит на горе над Луарой крепость Амбуаз. И уже полтысячелетия покоится в этой крепости тело Леонардо да Винчи."
+              },
+              {
+                "id": 2,
+                "text": "А ведь именно в этом королевском замке начиналась славная история итальянских походов. Культура итальянского возрождения постепенно проникает во Францию. Замок перестраивается, разбиваются первые ренессансные сады."
+              },
+              {
+                "id": 3,
+                "text": "В ходе экскурсии мы познакомимся с королями, жившим в этом замке, их бытом и привычками, узнаем обстоятельства переезда сюда Леонардо да Винчи, увидим его могилу в часовне Св. Губерта, которая сама по себе шедевр, полюбуемся потрясающим видом сверху на окрестный пейзаж."
+              },
+              {
+                "id": 4,
+                "text": "Выйдя из замка через башню Юрто, мы отправимся пешком по старинной улице в Кло Люсе - последний дом Леонардо. Внутри старинных стен и в разбитом напротив замка просторном парке я познакомлю вас с многочисленными ликами творчества знаменитого итальянца."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
+            "title_slug": "blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": 300,
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "На заре 16 века Блуа был королевской столицей, и это не могло не отразиться в его облике. В ходе пешеходной экскурсии мы поднимемся до Епископской терассы, полюбуемся уникальным видом на Луару открывающимся с нее. Будем останавливаться перед городскими особняками, построенными в верхнем городе королевскими министрами. Спустимся по романтичным улицам-лесенкам в нижний ремесленно-торговый фахверковый город, дойдем до церкви св. Николая."
+              },
+              {
+                "id": 2,
+                "text": "И конечно же все узнаем про замок Блуа-уникальный сплав разных архитектурных стилей и эпох, самую настоящую грамматику французской архитектуры. С какой стороны не подойдешь к замку – он открывается совершенно другим. Почему так произошло, я расскажу вам в ходе экскурсии."
+              },
+              {
+                "id": 3,
+                "text": "Семь королей ( и это не считая королев и младших братьев) жили в этом замке, здесь освящали боевое знамя Жанны д’Арк, убивали знаменитых де Гизов – многочисленные истории о любви и ненависти, верности и предательстве, переменчивой удаче ждут Вас."
               }
             ]
           }
@@ -233,7 +486,7 @@
   },
   "questions": {
     "title": "Часто задаваемые вопросы",
-    "paragraph": "Vous trouverez ici la liste des questions fréquemment posées, mais n'hésitez pas à me contacter pour toute autre question. Je serai ravi de vous répondre !",
+    "paragraph": "text",
     "questionsList": [
       {
         "id":1,
