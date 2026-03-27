@@ -8,7 +8,8 @@ export interface VisitCardType {
   title: string;
   title_slug: string;
   image_url: string;
-  price: string;
+  price?: string;
+  price_description?: string;
   paragraphs: ParagraphType[];
 }
 

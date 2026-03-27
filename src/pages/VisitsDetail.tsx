@@ -33,7 +33,6 @@ export default function VisitsDetail() {
   );
   if (!visitsDetail) return <div>Visite non trouvée (title slug)</div>;
 
-  const priceString = `${visitsDetail.price} €`;
   const paragraphs = visitsDetail.paragraphs;
 
   return (
@@ -51,12 +50,17 @@ export default function VisitsDetail() {
         
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
-            <FiClock className="text-xl md:text-2xl" />
+            <FiClock className="shrink-0 text-xl md:text-2xl" />
             <span className="text-xl md:text-2xl">{timeTour.duration}</span>
           </div>
           <div className="flex items-center gap-2">
-            <FiTag className="text-xl md:text-2xl" />
-            <span className="text-xl md:text-2xl">{priceString}</span>
+            <FiTag className="shrink-0 text-xl md:text-2xl" />
+            {visitsDetail.price ? (
+              <span className="text-xl md:text-2xl">{`${visitsDetail.price} €`}</span>
+            ) : (
+              <span className="text-sm md:text-lg">{visitsDetail.price_description}</span>
+            )
+            }
           </div>
         </div>
 

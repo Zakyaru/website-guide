@@ -47,9 +47,9 @@
   },
   "visits": {
     "title": "Catalogue des visites",
-    "description": "Découvrez ici les différentes visites que je propose. Elles sont organisées par durée pour vous aider à choisir celle qui correspond le mieux à votre programme. Vous pouvez opter pour une seule visite ou en combiner plusieurs selon vos envies.",
+    "description": "Cette région ne se résume pas à une liste de châteaux à cocher. C'est pourquoi j'ai conçu chacune de ces visites comme une histoire à part entière. Organisées par durée, elles s'adaptent à tous les programmes — et à toutes les envies.",
     "btn_more": "En savoir plus",
-    "btn_detail_action" : "Choisir cette visite",
+    "btn_detail_action": "Choisir cette visite",
     "visitsList": [
       {
         "id": 1,
@@ -58,69 +58,178 @@
         "visitCardList": [
           {
             "id": 1,
-            "title": "Chateau Chambord",
-            "title_slug": "chateau-chambord",
-            "image_url": "/images/chambord_test.webp",
-            "price": 90,
+            "title": "Léonard de Vinci à Amboise : le Clos Lucé",
+            "title_slug": "amboise-clos-luce",
+            "image_url": "/images/amboise.webp",
+            "price": "200",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Peu de gens le savent, mais le célèbre Italien a terminé son chemin terrestre dans la petite ville française d'Amboise. Au fil de cette visite, je vous ferai découvrir la dernière demeure de Léonard et les multiples visages de son œuvre."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Cette visite est idéale pour les familles avec enfants : le château dispose d'un vaste parc ombragé avec des maquettes et une aire de jeux."
               }
             ]
           },
           {
             "id": 2,
-            "title": "Chateau Chenonceau",
-            "title_slug": "chateau-chenonceau",
-            "image_url": "/images/chenonceau_test.jpg",
-            "price": 75,
+            "title": "Le château aux mille salamandres : Chambord",
+            "title_slug": "chambord",
+            "image_url": "/images/chambord.webp",
+            "price": "200",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Le château de Chambord est le véritable archétype des châteaux de la Loire. Sans l'avoir vu au moins une fois, difficile de se faire une juste idée de la vallée de la Loire."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Conçu comme un « petit » pavillon de chasse pour le roi, ses amis et sa suite, il devient en réalité le symbole du pouvoir royal absolu, de la puissance et d'une certaine façon d'en mettre plein la vue aux monarques rivaux d'Europe — en premier lieu le détesté empereur du Saint-Empire romain germanique, Charles Quint de Habsbourg."
+              },
+              {
+                "id": 3,
+                "text": "Au cours de la visite, je vous montrerai le célèbre escalier. Nous parlerons du destin de Chambord et de ses illustres propriétaires successifs, ainsi que du rôle qu'il a joué pendant la Seconde Guerre mondiale."
+              },
+              {
+                "id": 4,
+                "text": "Cette visite convient également à merveille aux familles avec enfants : à Chambord, nous serons très mobiles et partirons à la recherche de symboles et de signes gravés dans la pierre. Et pour bien commencer ou terminer la découverte de Chambord en saison, on peut assister à un spectacle équestre ou faire le tour du château en bateau électrique, en voiturette de golf ou à vélo."
               }
             ]
           },
           {
             "id": 3,
-            "title": "Visite de la ville d'Amboise",
-            "title_slug": "visite-amboise",
-            "image_url": "/images/amboise_test.jpg",
-            "price": 115,
+            "title": "Le château des femmes : Chenonceau",
+            "title_slug": "chenonceau",
+            "image_url": "/images/chenonceau.webp",
+            "price": "200",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "En général, quand on évoque la vallée de la Loire, c'est l'image d'un élégant château-pont enjambant la rivière qui vient à l'esprit. Ce château, c'est Chenonceau — et il est en effet très aimé et très visité. À l'opposé de l'esprit impérial de Chambord, il fut conçu et bâti comme une petite villa de campagne, intime et douillette."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Ses propriétaires furent toujours des femmes — et quelles femmes ! La célèbre favorite royale Diane de Poitiers, puis la reine Catherine de Médicis elle-même, aimèrent et embellirent ce château, dessinant autour de lui des jardins à parterres à l'italienne."
+              },
+              {
+                "id": 3,
+                "text": "Aux XVIIIe et XIXe siècles, le château ne resta pas non plus à l'abandon : d'autres maîtresses des lieux, tout aussi attentionnées, le préservèrent pendant la Révolution française et le transmirent en parfait état aux propriétaires actuels."
+              },
+              {
+                "id": 4,
+                "text": "Au cours de la visite, nous découvrirons l'histoire de la construction et des transformations du château, nous parlerons de toutes ses illustres châtelaines, du parc paysager alentour, et du maître fleuriste qui orne les riches intérieurs du château 365 jours par an."
               }
             ]
           },
           {
             "id": 4,
-            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-            "title_slug": "visite-spéciale",
-            "image_url": "/images/loire_test.jpg",
-            "price": 200,
+            "title": "Le manoir noble de Cheverny",
+            "title_slug": "cheverny",
+            "image_url": "/images/cheverny.webp",
+            "price": "200",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Ce fait surprend souvent les touristes : parmi les châteaux de la Loire, seuls quelques-uns sont des monuments nationaux. La grande majorité appartient à des propriétaires privés — familles, fondations, associations."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Cheverny est l'un des meilleurs exemples d'un château parfaitement conservé, richement meublé, avec un beau parc paysager du XIXe siècle, une meute de chiens courants au chenil, une orangerie et des écuries — et dans lequel la famille qui l'a bâti vit encore aujourd'hui."
+              },
+              {
+                "id": 3,
+                "text": "C'est une tragique histoire d'amour qui fut à l'origine de la transformation radicale de l'ancien château au début du XVIIe siècle."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "La ville de saint Martin : Tours",
+            "title_slug": "tours",
+            "image_url": "/images/tours.webp",
+            "price": "180",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Au cours de cette promenade pédestre de deux heures, nous découvrirons l'antique cité des Turones, devenue ville royale au début du XVIe siècle. Nous examinerons en détail, dans les vitraux de la cathédrale Saint-Gatien, la vie et les œuvres terrestres de l'un des saints les plus importants de France — Martin le Miséricordieux — et nous visiterons l'antique Martinopolis ainsi que la nouvelle basilique."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Le château royal d'Amboise",
+            "title_slug": "amboise-chateau",
+            "image_url": "/images/amboise.webp",
+            "price": "200",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Depuis des siècles, la forteresse d'Amboise se dresse fièrement sur son rocher au-dessus de la Loire. Et voilà déjà un demi-millénaire que repose en ses murs le corps de Léonard de Vinci."
+              },
+              {
+                "id": 2,
+                "text": "C'est en effet dans ce château royal que commença la glorieuse histoire des campagnes d'Italie. La culture de la Renaissance italienne pénètre peu à peu en France. Le château est remanié, les premiers jardins à l'italienne sont tracés."
+              },
+              {
+                "id": 3,
+                "text": "Au cours de la visite, nous ferons connaissance avec les rois qui habitèrent ce château, leur quotidien et leurs habitudes. Nous apprendrons dans quelles circonstances Léonard de Vinci vint s'y installer, nous verrons sa tombe dans la chapelle Saint-Hubert — un chef-d'œuvre à elle seule — et nous admirerons du haut les panoramas époustouflants sur le paysage alentour."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "Chaumont-sur-Loire : le château et les jardins",
+            "title_slug": "chaumont-sur-loire",
+            "image_url": "/images/vue_loire.webp",
+            "price": "200",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Encore un château vraiment « ligérien » — dressé en hauteur au-dessus de la Loire, depuis la terrasse et le salon du début du XXe siècle desquels s'ouvre l'un des plus beaux panoramas fluviaux de la vallée. Dans les salles historiques, nous parlerons de la passion de Catherine de Médicis pour l'astrologie et les prophéties, et de sa rivale Diane de Poitiers. Notre visite se poursuivra avec l'histoire de la dernière châtelaine, la princesse de Broglie — belle, fortunée et fantasque, qui dilapida son immense fortune en plaisirs, réceptions et voyages."
+              },
+              {
+                "id": 2,
+                "text": "Le magnifique parc paysager qu'elle laissa derrière elle, les écuries, la grange à foin et les autres dépendances servent aujourd'hui de galerie à ciel ouvert pour les sculpteurs et artistes contemporains. D'avril à octobre, un festival annuel d'art de jardins et de paysage contemporain s'y tient."
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "Le château des sept rois : Blois",
+            "title_slug": "chateau-blois",
+            "image_url": "/images/vue_loire.webp",
+            "price": "200",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Le château de Blois est un mélange unique de styles architecturaux et d'époques — une véritable grammaire de l'architecture française. De quelque côté qu'on l'approche, il se révèle tout différent. Je vous expliquerai pourquoi au cours de la visite."
+              },
+              {
+                "id": 2,
+                "text": "À l'aube du XVIe siècle, Blois était la capitale royale, et cela ne pouvait manquer de se refléter dans son aspect et ses intérieurs. Sept rois (sans compter les reines et les frères cadets) vécurent dans ce château ; c'est ici que fut bénie l'oriflamme de Jeanne d'Arc, que furent assassinés les célèbres Guise — de nombreuses histoires d'amour et de haine, de fidélité et de trahison, de fortune capricieuse vous y attendent."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "La ville de Jeanne d'Arc : Orléans",
+            "title_slug": "orleans",
+            "image_url": "/images/vue_loire.webp",
+            "price": "300",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Jeanne d'Arc est entrée dans l'histoire comme la Pucelle d'Orléans. Pourtant, elle n'y est pas née et n'y est pas morte. En pleine guerre de Cent Ans, elle libéra cette ville — la deuxième en importance après Paris — et en devint le symbole pour toujours. Tout ici rappelle Jeanne : les statues sur les places, les clous décoratifs enchâssés dans les pavés, les vitraux de la nef de la cathédrale."
+              },
+              {
+                "id": 2,
+                "text": "Nous arpenterons ensemble les vieilles rues et parlerons du rôle que la ville a joué dans l'histoire."
+              },
+              {
+                "id": 3,
+                "text": "Et si vous avez la chance de vous y trouver en ces « uniques » journées du début mai, quand la ville célèbre littéralement son héroïne — ornant la cathédrale d'étendards médiévaux, rejouant comme une mystère du Moyen Âge ces dix jours au cours desquels la jeune fille parvint à libérer Orléans assiégée depuis un an déjà, offrant aux habitants et aux visiteurs des concerts — alors cette cité ligérienne un peu oubliée restera à jamais gravée dans votre cœur."
               }
             ]
           }
@@ -133,69 +242,505 @@
         "visitCardList": [
           {
             "id": 1,
-            "title": "Chateau Chambord",
-            "title_slug": "chateau-chambord",
-            "image_url": "/images/chambord_test.webp",
-            "price": 90,
+            "title": "Entre Loire et Indre : Azay-le-Rideau et les jardins de Villandry",
+            "title_slug": "azay-le-rideau-villandry",
+            "image_url": "/images/villandry.webp",
+            "price": "300",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Si vous souhaitez vous immerger dans la beauté et l'harmonie, dans le silence des jardins et des parcs de deux châteaux intimistes, ce programme est fait pour vous."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Tel « un diamant serti d'émeraudes », reflété dans les eaux paresseuses et verdâtres de l'Indre, le château d'Azay-le-Rideau s'offre au regard. Petit et compact, avec son magnifique escalier et ses lucarnes richement ornées, il conquiert le cœur de chaque visiteur au premier coup d'œil."
+              },
+              {
+                "id": 3,
+                "text": "Un peu plus au nord, dans la vallée du Cher — un autre « vassal » de la Loire —, le château de Villandry déploie ses célèbres jardins. Pour Joachim Carvallo et sa femme, la recréation des parterres de jardins Renaissance devient l'œuvre de leur vie ; leur arrière-petit-fils perpétue aujourd'hui la tradition familiale."
               }
             ]
           },
           {
             "id": 2,
-            "title": "Chateau Chenonceau",
-            "title_slug": "chateau-chenonceau",
-            "image_url": "/images/chenonceau_test.jpg",
-            "price": 75,
+            "title": "La cité royale d'Amboise : château d'Amboise, Clos Lucé, ville",
+            "title_slug": "amboise",
+            "image_url": "/images/amboise.webp",
+            "price": "300",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Depuis des siècles, la forteresse d'Amboise se dresse fièrement sur son rocher au-dessus de la Loire. Et voilà déjà un demi-millénaire que repose en ses murs le corps de Léonard de Vinci."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "C'est en effet dans ce château royal que commença la glorieuse histoire des campagnes d'Italie. La culture de la Renaissance italienne pénètre peu à peu en France. Le château est remanié, les premiers jardins à l'italienne sont tracés."
+              },
+              {
+                "id": 3,
+                "text": "Au cours de la visite, nous ferons connaissance avec les rois qui habitèrent ce château, leur quotidien et leurs habitudes. Nous apprendrons dans quelles circonstances Léonard de Vinci vint s'y installer, nous verrons sa tombe dans la chapelle Saint-Hubert — un chef-d'œuvre à elle seule — et nous admirerons du haut les panoramas époustouflants sur le paysage alentour."
+              },
+              {
+                "id": 4,
+                "text": "En quittant le château par la tour Heurtault, nous partirons à pied par la vieille rue jusqu'au Clos Lucé — la dernière demeure de Léonard. Entre ses vieux murs et dans le vaste parc aménagé face au château, je vous ferai découvrir les multiples visages de l'œuvre du célèbre Italien."
               }
             ]
           },
           {
             "id": 3,
-            "title": "Visite de la ville d'Amboise",
-            "title_slug": "visite-amboise",
-            "image_url": "/images/amboise_test.jpg",
-            "price": 115,
+            "title": "La cité royale de Blois : château + visite pédestre de la ville",
+            "title_slug": "blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": "300",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "À l'aube du XVIe siècle, Blois était la capitale royale, et cela ne pouvait manquer de se refléter dans son aspect. Au cours de la promenade pédestre, nous monterons jusqu'à la terrasse épiscopale pour admirer l'unique panorama sur la Loire qu'elle offre. Nous nous arrêterons devant les hôtels particuliers construits dans la ville haute par les ministres royaux. Puis nous descendrons par les romantiques rues-escaliers jusqu'à la ville basse artisanale et commerçante à colombages, en chemin jusqu'à l'église Saint-Nicolas."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Et bien sûr, nous découvrirons tout sur le château de Blois — ce mélange unique de styles architecturaux et d'époques, cette véritable grammaire de l'architecture française. De quelque côté qu'on l'approche, il se révèle tout différent. Je vous expliquerai pourquoi au cours de la visite."
+              },
+              {
+                "id": 3,
+                "text": "Sept rois (sans compter les reines et les frères cadets) vécurent dans ce château ; c'est ici que fut bénie l'oriflamme de Jeanne d'Arc, que furent assassinés les célèbres Guise — de nombreuses histoires d'amour et de haine, de fidélité et de trahison, de fortune capricieuse vous y attendent."
               }
             ]
           },
           {
             "id": 4,
-            "title": "Visite sépciale au coeur de la loire et à la découverte de toute la vallée",
-            "title_slug": "visite-spéciale",
-            "image_url": "/images/loire_test.jpg",
-            "price": 200,
+            "title": "La forteresse de Loches : deux châteaux en un",
+            "title_slug": "loches",
+            "image_url": "/images/visite_enfant.webp",
+            "price": "250",
             "paragraphs": [
               {
                 "id": 1,
-                "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+                "text": "Si vous aimez le Moyen Âge et les antiques forteresses chevaleresques, c'est ici qu'il faut venir — à Loches. Loches, comme un dragon de pierre assoupi, las du poids des siècles, s'est métamorphosé en chien sommeillant paisiblement au soleil. Mais si on le secoue un peu, il nous contera l'histoire de Foulques le Noir qui bâtit sur cette colline le premier château, la guerre de Cent Ans et Jeanne, le peu aimable dauphin Charles VII et sa dame de Beauté, Agnès Sorel."
               },
               {
                 "id": 2,
-                "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+                "text": "Si vous n'avez pas le vertige, nous monterons sur les murailles du donjon — vieilles de mille ans — nous nous perdrons dans les labyrinthes des geôles où languissaient les ennemis de Louis XI, puis nous déboucherons dans la ville médiévale, visiterons la collégiale romane et le logis royal des XIVe-XVe siècles."
+              },
+              {
+                "id": 3,
+                "text": "Cette promenade historique pourra se conclure en terrasse de l'un des nombreux cafés locaux."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Le Mans : une perle méconnue. Cathédrale Saint-Julien, vieux centre +/- château du Lude",
+            "title_slug": "le-mans",
+            "image_url": "/images/visite_enfant.webp",
+            "price": "300/450",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Pour le grand public, le nom de la ville française du Mans évoque la célèbre course automobile des 24 Heures, l'usine de tracteurs Renault — désormais Claas — et le jumelage avec Rostov-sur-le-Don, dont le nom orne ici un long boulevard."
+              },
+              {
+                "id": 2,
+                "text": "Peu de gens savent quelle perle se cache dans le vieux centre de cette ville ! Il semble s'être assoupi dans l'atmosphère du XVIIe siècle, avec ses ruelles pavées et ses bornes d'angle, ses maisons à colombages et ses passages dans l'ancien rempart. Un soir d'hiver, à la lumière des réverbères au gaz, on croirait voir surgir Cyrano de Bergerac en personne, ou quelque mousquetaire."
+              },
+              {
+                "id": 3,
+                "text": "La cathédrale Saint-Julien et sa magnifique collection de vitraux seront également au programme de notre visite."
+              },
+              {
+                "id": 4,
+                "text": "Si vous vous trouvez au Mans pendant la belle saison, je vous propose de compléter la visite de la ville par celle du château du Lude. La famille propriétaire vit dans cet élégant château entouré de jardins et d'un parc toute l'année, et l'ouvre à la visite d'avril à octobre."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "duration": "Journée 8-9 heures",
+        "duration_slug": "dayTour",
+        "description": [
+          {
+            "id": 1,
+            "text": "Plusieurs programmes d'une journée peuvent être combinés en un circuit de plusieurs jours à travers la Loire, selon toutes sortes de formules — avec en option des dégustations chez les vignerons, une promenade en bateau, un survol des châteaux en montgolfière ou en hélicoptère, un spectacle équestre ou un son et lumière dans les châteaux, un zoo, des grottes, et bien d'autres surprises."
+          }
+        ],
+        "specifications": [
+          {
+            "id": 1,
+            "text": "* pour les sportifs"
+          },
+          {
+            "id": 2,
+            "text": "** pour ceux qui ne se pressent pas et qui aiment un rythme tranquille — prendre le temps, en cours de visite, d'une tasse de café ou d'un verre de vin, d'entrelacer les découvertes d'une flânerie dans un parc ou un jardin face au château, de s'arrêter dans une jolie boutique sur une vieille rue"
+          }
+        ],
+        "visitCardList": [
+          {
+            "id": 1,
+            "title": "*Les classiques des châteaux : Amboise, Chenonceau, Chambord",
+            "title_slug": "classical-amboise-chenonceau-chambord",
+            "image_url": "/images/villandry.webp",
+            "price": "490",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Le kit de départ pour les sportifs = 3 châteaux incontournables en une seule journée."
+              },
+              {
+                "id": 2,
+                "text": ""
+              },
+              {
+                "id": 3,
+                "text": ""
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "*L'histoire de la cour royale française en châteaux et en portraits : Amboise, Blois, Chambord",
+            "title_slug": "amboise-blois-chambord",
+            "image_url": "/images/amboise.webp",
+            "price": "490",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "L'apogée architecturale, économique et politique de notre région se situe à la fin du XVe et au début et milieu du XVIe siècle. Durant cette période, les rois de France résident en permanence dans la vallée de la Loire, rénovent selon la nouvelle mode les châteaux-forteresses d'Amboise et de Blois hérités de leurs ancêtres, et font tracer les premiers jardins à parterres."
+              },
+              {
+                "id": 2,
+                "text": "C'est à cette même époque que s'élève le chef-d'œuvre architectural qu'est Chambord. Nous commencerons notre journée de visite par la découverte de ce château — le véritable archétype des châteaux de la Loire. Sans avoir vu Chambord au moins une fois, difficile de se faire une juste idée de la vallée de la Loire."
+              },
+              {
+                "id": 3,
+                "text": "Conçu comme un « petit » pavillon de chasse pour le roi, ses amis et sa suite, il devient en réalité le symbole du pouvoir royal absolu, de la puissance et d'une certaine façon d'en mettre plein la vue aux monarques rivaux d'Europe — en premier lieu le détesté Charles Quint de Habsbourg, empereur du Saint-Empire."
+              },
+              {
+                "id": 4,
+                "text": "Je vous montrerai comment le roi François Ier lui-même vécut dans ce château, et de quelle manière les pièces intérieures et leur décor se transformèrent au fil des siècles sous d'autres propriétaires."
+              },
+              {
+                "id": 5,
+                "text": "Puis, suivant la tradition bien ancrée à la cour de France de cette époque de « cheminer » de château en château, nous nous déplacerons vers Blois, où nous examinerons en détail la « grammaire de pierre » et les emblèmes royaux sur les nombreuses façades de ce château."
+              },
+              {
+                "id": 6,
+                "text": "Vous apprendrez comment ces façades ont progressivement émergé sur la base de l'ancienne forteresse des comtes de Blois. À quel héros antique le roi François se comparait-il ? Quel rôle jouèrent les États généraux lors de la dernière année du règne des Valois ? Qui fut le « calife pour une heure » à la cour de France au XVIIe siècle, et comment cela se reflète-t-il dans le plan et l'unité du château ? Vous pourrez apprécier l'aménagement intérieur des pièces."
+              },
+              {
+                "id": 7,
+                "text": "Et la dernière étape de ce programme bien rempli sera pour nous le château royal d'Amboise. Je vous raconterai où et comment étaient élevés les enfants royaux, qui traça les premiers jardins Renaissance dans l'enceinte du château, où Léonard de Vinci fut réellement enterré, pourquoi il ne reste qu'un cinquième du château — et pourquoi des cornes ont poussé sur le clocher de la chapelle Saint-Hubert."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "**L'histoire du gynécée royal : Chenonceau, Blois",
+            "title_slug": "chenonceau-blois",
+            "image_url": "/images/visite_enfant.webp",
+            "price": "450",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Les livres d'histoire sont généralement consacrés, en premier lieu, aux noms masculins qui sont entrés dans l'Histoire : les rois, leurs ministres, leurs courtisans. J'ai choisi, moi, de placer au cœur de cette visite originale des récits sur la vie de la cour à travers le prisme d'un regard « féminin » sur l'époque."
+              },
+              {
+                "id": 2,
+                "text": "Comment vivaient alors les reines, les belles-filles, les sœurs, les filles, les favorites, les mères et les veuves du roi à la cour de France, dans ces châteaux ? Quel rôle jouaient-elles — officiellement et dans les faits — sur l'échiquier de l'État ?"
+              },
+              {
+                "id": 3,
+                "text": "Que pouvaient-elles ressentir ici ? Comment organisaient-elles et ornaient-elles leur quotidien ? Quels jardins faisaient-elles cultiver ? Quels emblèmes de pierre et autres témoignages de leur vie et de leur présence dans ces palais nous parlent encore d'elles aujourd'hui ?"
+              },
+              {
+                "id": 4,
+                "text": "Qui institua et organisa la première véritable cour féminine en France, digne de ce nom ? Selon quels critères y recrutait-on filles et dames ? Quel était l'emploi du temps, les heures et les occupations de chaque journée ? Comment se déroulaient ici les fêtes et les cérémonies ?"
+              },
+              {
+                "id": 5,
+                "text": "À toutes ces questions, je répondrai progressivement au cours d'une journée de visite dans les châteaux de Blois et de Chenonceau. Ils constitueront le contrepoint de notre découverte lente et attentive de ces châteaux si riches en architecture et en décor intérieur."
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "title": "**L'art de vivre à la Renaissance : Chenonceau et Villandry",
+            "title_slug": "chenonceau-villandry",
+            "image_url": "/images/villandry.webp",
+            "price": "450",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Si ce qui vous attire avant tout ce sont les ensembles de jardins et de parcs paysagers, si vous souhaitez non seulement découvrir l'histoire et l'architecture des châteaux, mais aussi flâner tranquillement dans leurs jardins, vous imprégner de l'atmosphère et du souffle du temps, frotter entre vos doigts une feuille d'une menthe rare, regarder ce qui pousse au potager — alors ce programme est fait pour vous."
+              },
+              {
+                "id": 2,
+                "text": "Nous partirons à la découverte de deux des plus agréables châteaux Renaissance. Nous parlerons des célèbres châtelaines de Chenonceau, de la façon dont elles ont chacune à leur tour chéri et entretenu leur château bien-aimé. À Villandry, nous ferons connaissance par procuration avec la famille Carvallo — ses jardins incomparables, les charmants intérieurs du château, sa philosophie de vie."
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "title": "**Les résidences royales de Blois et de Chambord",
+            "title_slug": "blois-chambord",
+            "image_url": "/images/villandry.webp",
+            "price": "450",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "L'apogée architecturale, économique et politique de notre région se situe à la fin du XVe et au début et milieu du XVIe siècle. Durant cette période, les rois de France résident en permanence dans la vallée de la Loire, rénovent selon la nouvelle mode les châteaux-forteresses d'Amboise et de Blois hérités de leurs ancêtres, et font tracer les premiers jardins à parterres."
+              },
+              {
+                "id": 2,
+                "text": "C'est à cette même époque que s'élève le chef-d'œuvre architectural qu'est Chambord. Nous commencerons notre journée de visite par la découverte de ce château — le véritable archétype des châteaux de la Loire. Sans avoir vu Chambord au moins une fois, difficile de se faire une juste idée de la vallée de la Loire."
+              },
+              {
+                "id": 3,
+                "text": "Conçu comme un « petit » pavillon de chasse pour le roi, ses amis et sa suite, il devient en réalité le symbole du pouvoir royal absolu, de la puissance et d'une certaine façon d'en mettre plein la vue aux monarques rivaux d'Europe — en premier lieu le détesté Charles Quint de Habsbourg, empereur du Saint-Empire."
+              },
+              {
+                "id": 4,
+                "text": "Je vous montrerai comment le roi François Ier lui-même vécut dans ce château, et de quelle manière les pièces intérieures et leur décor se transformèrent au fil des siècles sous d'autres propriétaires."
+              },
+              {
+                "id": 5,
+                "text": "Puis, suivant la tradition bien ancrée à la cour de France de cette époque de « cheminer » de château en château, nous nous déplacerons vers Blois, où nous examinerons en détail la « grammaire de pierre » et les emblèmes royaux sur les nombreuses façades de ce château."
+              },
+              {
+                "id": 6,
+                "text": "Vous apprendrez comment ces façades ont progressivement émergé sur la base de l'ancienne forteresse des comtes de Blois. À quel héros antique le roi François se comparait-il ? Quel rôle jouèrent les États généraux lors de la dernière année du règne des Valois ? Qui fut le « calife pour une heure » à la cour de France au XVIIe siècle, et comment cela se reflète-t-il dans le plan et l'unité du château ? Vous pourrez apprécier l'aménagement intérieur des pièces."
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "title": "À l'ouest de Tours 1 : Azay-le-Rideau, Villandry, Langeais",
+            "title_slug": "azay-le-rideau-villandry-langers",
+            "image_url": "/images/villandry.webp",
+            "price": "470",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Le célèbre écrivain français Honoré de Balzac revenait dans sa Tours natale et se promenait dans les environs. Et voilà qu'un jour, tel « un diamant serti d'émeraudes », reflété dans les eaux paresseuses et verdâtres de l'Indre, le château d'Azay-le-Rideau s'offrit à son regard. Petit et compact, avec son magnifique escalier et ses lucarnes richement ornées, il conquit au premier coup d'œil le cœur de l'écrivain — Balzac s'en servit comme décor du Lys dans la vallée. Ce château ne laisse pas non plus indifférents les visiteurs d'aujourd'hui."
+              },
+              {
+                "id": 2,
+                "text": "Un peu plus au nord, dans la vallée du Cher — un autre « vassal » de la Loire —, le château de Villandry déploie ses célèbres jardins. Pour Joachim Carvallo et sa femme, la recréation des parterres de jardins Renaissance devient l'œuvre de leur vie."
+              },
+              {
+                "id": 3,
+                "text": "Le dernier de ces châteaux aimables et agréables à vivre dans notre circuit sera Langeais. Nous retrouvons la Loire ; le seigneur et sa belle dame nous y attendent. Tout dans leur château est prêt pour les noces secrètes royales. Nous déambulerons sur le chemin de ronde, examinerons les sujets d'une belle et riche collection de tapisseries, et apprendrons pourquoi Langeais c'est deux châteaux en un — et qui était Foulques Nerra."
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "title": "À l'ouest de Tours 2 : Villandry, Azay-le-Rideau, le château de la Belle au Bois Dormant — Ussé",
+            "title_slug": "villandry-azay-le-rideau-chateau",
+            "image_url": "/images/villandry.webp",
+            "price": "470",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Le célèbre écrivain français Honoré de Balzac revenait dans sa Tours natale et se promenait dans les environs. Et voilà qu'un jour, tel « un diamant serti d'émeraudes », reflété dans les eaux paresseuses et verdâtres de l'Indre, le château d'Azay-le-Rideau s'offrit à son regard. Petit et compact, avec son magnifique escalier et ses lucarnes richement ornées, il conquit au premier coup d'œil le cœur de l'écrivain — Balzac s'en servit comme décor du Lys dans la vallée. Ce château ne laisse pas non plus indifférents les visiteurs d'aujourd'hui."
+              },
+              {
+                "id": 2,
+                "text": "Un peu plus au nord, dans la vallée du Cher — un autre « vassal » de la Loire —, le château de Villandry déploie ses célèbres jardins. Pour Joachim Carvallo et sa femme, la recréation des parterres de jardins Renaissance devient l'œuvre de leur vie."
+              },
+              {
+                "id": 3,
+                "text": "Le dernier de ces châteaux aimables et agréables à vivre dans notre circuit sera le château d'Ussé, considéré à juste titre comme le prototype du château de la Belle au Bois Dormant. C'est en effet ici que séjourna chez une amie le conteur français Charles Perrault. Selon la légende, les nombreuses tourelles du château et les corbeaux qui s'y rassemblent à la nuit tombée sur un vieux cèdre du Liban l'inspirèrent pour écrire son célèbre conte."
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "title": "La saga des Plantagenêts : Chinon, Fontevraud, Saumur",
+            "title_slug": "chinon-fontevrau-saumur",
+            "image_url": "/images/villandry.webp",
+            "price": "480",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Les châteaux classiques de la Loire reflètent avant tout la présence, aux XVe-XVIe siècles, de la cour de France dans cette région. Mais si l'on remonte à une couche plus ancienne de l'histoire ligérienne et que l'on se dirige à l'ouest de Tours, à la frontière des deux provinces historiques de Touraine et d'Anjou, nos héros seront les comtes angevins — par ailleurs rois d'Angleterre — : le célèbre Richard Cœur de Lion et ses parents."
+              },
+              {
+                "id": 2,
+                "text": "À Chinon, nous parlerons également des Templiers et de Jeanne d'Arc."
+              },
+              {
+                "id": 3,
+                "text": "À la royale abbaye de Fontevraud, nous nous imprégnerons de la simplicité et de la grandeur de l'architecture romane, et parlerons des « exilées de Fontevraud » et du tragique destin de l'abbaye aux XIXe-XXe siècles."
+              },
+              {
+                "id": 4,
+                "text": "Nous terminerons la journée à Saumur, en admirant, verre de bon saumurois à la main, le château « céleste » et la vue sur la Loire, en évoquant le souvenir du bon roi René d'Anjou et des heures glorieuses de cette ville sous Duplessis-Mornay, compagnon d'Henri IV."
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Paysage ligérien : vin et histoire",
+            "title_slug": "loire-landscape",
+            "image_url": "/images/villandry.webp",
+            "price": "480",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Je vous propose à nouveau de partir à l'ouest de Tours et des châteaux classiques — changer un peu de décor, s'aérer l'esprit."
+              },
+              {
+                "id": 2,
+                "text": "Notre premier arrêt sur la route de Saumur sera Candes-Saint-Martin. Avec les villages voisins de Montsoreau et de Turquant, Candes fait partie de la liste officielle des « Plus Beaux Villages de France ». Nous parlerons de saint Martin, de la véritable histoire de la comtesse de Montsoreau, nous verrons les habitations troglodytiques de Turquant, visiterons les ateliers-boutiques des artistes locaux, et goûterons la spécialité locale — la « pomme tapée ». Un déjeuner dans un restaurant troglodytique et une dégustation de vins de Saumur viendront refaire nos forces et agrémenter agréablement l'ensemble."
+              },
+              {
+                "id": 3,
+                "text": "Et nous voilà enfin à Saumur. Nous y attend une promenade tranquille dans la vieille ville, le souvenir du bon roi René d'Anjou et des heures glorieuses de cette cité sous Duplessis-Mornay, le compagnon d'Henri IV — un rappel à chaque coin de rue de la célèbre école de cavalerie — et bien sûr, dominant la Loire de toute sa hauteur, le « Jérusalem céleste » qu'est le château de Saumur."
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Les trésors de l'art de la tapisserie : histoire de la ville d'Angers",
+            "title_slug": "city-angers",
+            "image_url": "/images/villandry.webp",
+            "price": "520",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "La ville d'Angers, aux portes de la Bretagne historique, mérite amplement une journée de visite à part entière. Rien que sa forteresse médiévale vaut le détour ! Construite au XIIIe siècle, elle a conservé ses ponts-levis et son chemin de ronde, depuis lequel s'offre un panorama sur la ville moderne."
+              },
+              {
+                "id": 2,
+                "text": "Difficile de ne pas remarquer depuis la route ce château aux murs de schiste local et de tuffeau. Mais peu de gens devinent quel trésor renferment ces murs bruts. Un chef-d'œuvre de l'art médiéval du tissage — la Tenture de l'Apocalypse, un cycle de cent mètres de long — attire à Angers des visiteurs du monde entier."
+              },
+              {
+                "id": 3,
+                "text": "Et derrière le château nous attendent le quartier canonial et le vieux centre, avec ses belles maisons à colombages et les vestiges de nombreux anciens monastères, insérés ici et là dans le tissu urbain nouveau."
+              },
+              {
+                "id": 4,
+                "text": "En descendant de la cathédrale vers la rivière et en traversant dans le quartier de La Doutre, nous découvrirons un autre « trésor méconnu » d'Angers. Les voûtes bombées de l'antique hôpital Saint-Jean servent d'écrin doré au Chant du Monde de Jean Lurçat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "duration": "Circuits de plusieurs jours",
+        "duration_slug": "severalDayTour",
+        "visitCardList": [
+          {
+            "id": 1,
+            "title": "Tour gastronomique : pour l'esprit, le cœur et l'estomac",
+            "title_slug": "gastro-tour",
+            "image_url": "/images/chateau_angers.webp",
+            "price_description": "Tarif pour 2 jours de service guide + dégustations : 940 euros. Transport, droits d'entrée dans les châteaux, bateau et « chasse » à la truffe, ainsi que repas et hébergement sur le parcours sont à régler séparément.",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Châteaux innombrables, villes et bourgades anciennes — tout cela attire le touriste, mais comment partir dans ce jardin de la France sans se faire plaisir pour le palais ? La Touraine et l'Anjou sont célèbres non seulement pour leurs vins, mais aussi pour leurs fruits, leurs légumes, leur fromage de chèvre, leur poisson de rivière et leurs pâtés."
+              },
+              {
+                "id": 2,
+                "text": "Le circuit que je vous propose est prévu pour deux jours. Nous le composerons selon vos souhaits et en fonction de la saison. En premier lieu, nous y inclurons la visite de domaines viticoles avec dégustation et rencontre avec le propriétaire. La région produit des vins blancs, rouges, effervescents selon la méthode champenoise, et rosés."
+              },
+              {
+                "id": 3,
+                "text": "Par temps chaud, nous descendrons dans les labyrinthes souterrains des champignonnières et déjeunerons dans un restaurant troglodytique, ou organiserons un pique-nique au coucher du soleil sur une gabarre traditionnelle. En hiver, nous pourrons partir à la « chasse » à la truffe — et en décembre, boire un vin chaud et flâner au marché de Noël de Tours."
+              },
+              {
+                "id": 4,
+                "text": "La visite d'un marché de producteurs en plein air vous donnera l'occasion de voir et de sentir les couleurs et les parfums de la France profonde."
+              },
+              {
+                "id": 5,
+                "text": "Et bien sûr, j'entremêlerai tout cela de références culturelles et d'informations. Nous visiterons le raffiné Chenonceau, nous recueillerons sur la tombe de Léonard de Vinci à Amboise, nous découvrirons le Moyen Âge de Langeais et de Saumur."
+              },
+              {
+                "id": 6,
+                "text": "Car le voyage doit laisser des traces non seulement dans les papilles et l'estomac, mais dans l'âme et l'esprit."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "La diagonale des cathédrales : 3 cathédrales et 5 châteaux méconnus",
+            "title_slug": "original-tour",
+            "image_url": "/images/chateau_angers_whatsapp.webp",
+            "price_description": "Tarif pour 4 jours de service guide + remboursement des frais de déplacement du guide : 1 990 euros. Frais supplémentaires à la charge du voyageur : transport, droits d'entrée dans les châteaux, repas et hébergement sur le parcours.",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Ce circuit se distinguera radicalement de toutes les offres possibles sur cet itinéraire. J'avais depuis longtemps envie de réunir en un seul parcours trois anciennes villes françaises et de relier en contrepoint trois cathédrales : la célèbre cathédrale de Chartres et deux moins connues — Saint-Julien au Mans et Saint-Maurice à Angers."
+              },
+              {
+                "id": 2,
+                "text": "Et d'y ajouter quelques beaux châteaux à l'écart de la Loire classique, injustement « méconnus », qui se trouvent justement sur cette diagonale."
+              },
+              {
+                "id": 3,
+                "text": "Le programme est le suivant :"
+              },
+              {
+                "id": 4,
+                "text": "Jour 1 : départ de Paris, château de Maintenon. Déjeuner à Chartres — cathédrale, vieux centre. Transfert et nuitée au Mans."
+              },
+              {
+                "id": 5,
+                "text": "Jour 2 : visite pédestre du vieux centre du Mans, cathédrale Saint-Julien. Déjeuner. Château du Lude. Transfert et nuitée à Angers."
+              },
+              {
+                "id": 6,
+                "text": "Jour 3 : découverte de la ville d'Angers : château, quartier canonial, cathédrale, quartiers monastiques, quartier de La Doutre, hôpital Saint-Jean."
+              },
+              {
+                "id": 7,
+                "text": "Jour 4 : château de Brissac, dégustation de vins d'Anjou, déjeuner. Château du Plessis-Bourré. Retour à Paris."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Programme de visites pour enfants dans la Vallée de la Loire",
+            "title_slug": "kids-tour",
+            "image_url": "/images/visite_enfant.webp",
+            "price_description": "Tarif pour 3 jours de service guide + remboursement des frais de train du guide : 1 400 euros. Droits d'entrée dans les châteaux et le parc, ainsi que repas et hébergement sur le parcours sont à régler séparément.",
+            "paragraphs": [
+              {
+                "id": 1,
+                "text": "Nous avons tous lu, enfants, Dumas et Druon, regardé les films historiques adaptés de leurs romans. Le cœur s'arrêtait au seul nom de la belle comtesse de Montsoreau et du valeureux Bussy — et comme il était espiègle et malin, ce Chicot !"
+              },
+              {
+                "id": 2,
+                "text": "Qui parmi nous n'a pas rêvé de parcourir, main sur le baudrier brodé de son épée, les ruelles médiévales des vieilles villes françaises ? Et comme il était passionnant de lire l'histoire de France, d'essayer de retenir tous ces Henri, Charles et Louis : qui s'était distingué, à quelle époque il avait vécu, ce qu'il avait construit, contre qui il avait guerroyé, qui il avait aimé et haï ?"
+              },
+              {
+                "id": 3,
+                "text": "Et vous voilà grands, devenus parents à votre tour. Vous aimez toujours la France et y revenez parfois. Mais que faire si vous souhaitez visiter la Vallée de la Loire en famille, avec des enfants, garçons et filles, grands et moins grands ? Comment éveiller en eux l'intérêt pour l'histoire de France ? Comment rendre un tel voyage joyeux et instructif — mais surtout inoubliable !"
+              },
+              {
+                "id": 4,
+                "text": "Je vous propose, pour vous et vos enfants, un programme original conçu spécialement pour vous. Voici donc :"
+              },
+              {
+                "id": 5,
+                "text": "Jour 1 : arrivée à Orléans, visite pédestre de la ville et cathédrale (histoire de Jeanne d'Arc) — château de Chambord (histoire de la salamandre royale) — dîner et nuitée à Blois."
+              },
+              {
+                "id": 6,
+                "text": "Jour 2 : château royal d'Amboise (histoire de Léonard de Vinci) — cité médiévale fortifiée de Loches (histoire de Foulques le Noir, chevalier sans peur mais non sans reproche, de la dame de cœur et de beauté Agnès Sorel, de Louis XI et de ses « demoiselles ») — dîner et nuitée à Tours."
+              },
+              {
+                "id": 7,
+                "text": "Jour 3 : château de Langeais (les noces secrètes d'Anne et de Charles) — forteresse de Chinon (le début de la saga des Plantagenêts et les Templiers) — abbaye royale de Fontevraud (la suite de la saga des Plantagenêts et les filles exilées de Louis XV) — nuitée à Saumur."
+              },
+              {
+                "id": 8,
+                "text": "Jour 4 et dernier (facultatif) : le parc de spectacles historiques grandioses du Puy du Fou."
               }
             ]
           }
@@ -203,39 +748,64 @@
       }
     ]
   },
-  "questions": {
-    "title": "Часто задаваемые вопросы",
-    "paragraph": "Vous trouverez ici la liste des questions fréquemment posées, mais n'hésitez pas à me contacter pour toute autre question. Je serai ravi de vous répondre !",
-    "questionsList": [
+  "about": {
+    "title": "Qui suis-je ?",
+    "paragraphs": [
       {
         "id": 1,
-        "question": "Сколько нужно дней?",
-        "response": "2-3 дня идеально для осмотра классики – основных замков. Если же вы хотели бы охватить все богатство долины (замки к западу от Тура, Сомюр, Анже, Нант), то нужно минимум неделю и 2-3 отельные остановки по маршруту."
+        "text": "Née et grandie à Leningrad. Initiée au français dès l'enfance, j'ai reçu une formation de philologue — d'abord à l'Université de Saint-Pétersbourg, puis à la Sorbonne. Cela fait 25 ans que je vis et travaille en France. À la naissance de mes aînés, nous nous sommes installés à Tours, sur la Loire."
       },
       {
         "id": 2,
-        "question": "Сколько замков можно посмотреть за день?",
-        "response": "Хороший ритм – это два, максимум три замка в день. Лучше два + пешеходная прогулка по городу или визит-дегустация у винодела. Разбавить долгое пребывание в долине можно посещением биопарка Боваль, экскурсией в скальные помещения-грибницы, аббатством Фонтевро и его музеем современного искусства, необычным музеем компаньонов-мастеров в Туре и прогулкой  в теплый период года по самым прекрасным деревушкам Франции и т.д. и т.д."
+        "text": "À force de vivre ici, j'ai été véritablement conquise par la beauté et l'harmonie de ce cœur de la France — et l'envie m'est venue de le faire découvrir aux autres. Car même les Parisiens n'ont pas toujours vu les châteaux de la Loire, alors que dire de nos compatriotes !"
       },
       {
         "id": 3,
-        "question": "Где лучше остановиться? Город V замок-отель: плюсы и минусы?",
-        "response": "Для знакомства с классикой замков (Шамбор, Блуа, Шеверни, Шомон, Амбуаз, Шенонсо, Вилландри) лучше остановиться в Амбуазе или Блуа. В самом городе обе эти локации предлагают большой выбор отелей разной ценовой категории. Если вы будете без машины – то это лучший вариант. Вечером вы самостоятельно можете погулять, выбрать понравившийся ресторан, сходить на вечернее световое шоу в замке Блуа. Замки-отели как правило находятся в лесу, с красивым парком вокруг, вневременным шармом и иногда даже переодетым в исторические костюмы персоналом. Так что если вы на машине и любите тишину и природу, то это хороший вариант."
+        "text": "En 2011-2012, j'ai suivi une formation à la faculté de tourisme d'Angers et obtenu ma carte officielle de guide-interprète. Depuis, je fais découvrir cette région pleine de charme et de surprises à des visiteurs venus de partout — de tous âges, de toutes nationalités, de toutes confessions. C'est mon métier principal, et je l'adore."
       },
       {
         "id": 4,
-        "question": "В какое время года лучше приехать сюда?",
-        "response": "Сезон на замках начинается с марта и заканчивается в октябре. Как и везде, лучшие месяцы апрель-июнь и сентябрь-начало октября. Лучше избегать многодневных национальных выходных на Пасху, Вознесение (Ascension) и Пятидесятницу (Pentecôte) – в этот период в основных замках не протолкнуться от толп французов. В июле и августе может быть жарко. А прекраснее всего украшены наши замки весь декабрь: сказочные рождественские декорации компенсируют отсутствие цветения в садах и коротктй световой день."
+        "text": "Je suis également traductrice assermentée et m'occupe, à mes heures libres, de traductions écrites et orales. Mère de quatre enfants."
       },
       {
         "id": 5,
-        "question": "Как одеться в мае? В сентябре? Зимой?",
-        "response": "Климат на Луаре умеренный океанический. Ходить на воздухе придется много. Лучше всегда иметь с собой пару удобной закрытой обуви типа непромокаемых кроссовок и непродуваемую куртку с капюшоном. Зимой потеплее – на позднюю российскую осень. 5-8 градусов тепла зимой из-за сырости может ощущаться как ноль. Обуви достаточно утепленной осенней. Весной и осенью может быть ветренно и холодно утром и солнечно и тепло после обеда. Поэтому одеваться по принципу луковицы – самый хороший вариант."
+        "text": "J'aime voyager, apprendre sans cesse, aller à la rencontre de nouvelles personnes, m'occuper des enfants et jardiner, lire, la musique et la nature. Je pratique la danse orientale et le yoga."
+      }
+    ]
+  },
+  "questions": {
+    "title": "Questions fréquentes",
+    "paragraph": "Voici les questions que l'on me pose le plus souvent — et mes réponses ! Si vous n'y trouvez pas ce que vous cherchez, écrivez-moi sans hésiter. Je serai heureuse de vous répondre.",
+    "questionsList": [
+      {
+        "id": 1,
+        "question": "Combien de jours faut-il prévoir ?",
+        "response": "2 à 3 jours sont idéaux pour découvrir l'essentiel — les châteaux incontournables. Mais si vous souhaitez embrasser toute la richesse de la vallée (les châteaux à l'ouest de Tours, Saumur, Angers, Nantes), il faut compter au minimum une semaine et 2 à 3 étapes d'hébergement différentes sur le parcours."
+      },
+      {
+        "id": 2,
+        "question": "Combien de châteaux peut-on visiter en une journée ?",
+        "response": "Un bon rythme, c'est deux châteaux — trois au maximum par jour. Idéalement deux, complétés par une promenade pédestre en ville ou une visite-dégustation chez un vigneron. Pour varier les plaisirs lors d'un long séjour dans la vallée, on peut aussi s'offrir le bioparc de Beauval, une visite des caves-champignonnières troglodytiques, l'abbaye de Fontevraud et son musée d'art contemporain, l'étonnant musée des Compagnons du Tour de France à Tours, ou encore une flânerie dans les plus beaux villages de France pendant la belle saison — et j'en passe !"
+      },
+      {
+        "id": 3,
+        "question": "Où vaut-il mieux séjourner ? Ville ou château-hôtel : avantages et inconvénients ?",
+        "response": "Pour découvrir les châteaux classiques (Chambord, Blois, Cheverny, Chaumont, Amboise, Chenonceau, Villandry), mieux vaut s'installer à Amboise ou à Blois. Ces deux villes offrent un large choix d'hôtels dans toutes les gammes de prix. Si vous n'avez pas de voiture, c'est clairement la meilleure option : le soir, vous pouvez vous promener à votre guise, choisir le restaurant qui vous plaît, aller assister au son et lumière du château de Blois. Les châteaux-hôtels, quant à eux, sont en général nichés dans un bois, entourés d'un beau parc, avec un charme hors du temps et parfois même un personnel en costume d'époque. Si vous êtes en voiture et que vous aimez le calme et la nature, c'est une très bonne option."
+      },
+      {
+        "id": 4,
+        "question": "Quelle est la meilleure période pour venir ?",
+        "response": "La saison dans les châteaux commence en mars et se termine en octobre. Comme partout, les meilleurs mois sont avril-juin et septembre-début octobre. Mieux vaut éviter les longs week-ends des jours fériés nationaux — Pâques, l'Ascension et la Pentecôte : à ces périodes, les châteaux principaux sont envahis par les foules de Français. En juillet et août, il peut faire très chaud. Mais c'est en décembre que nos châteaux sont les plus beaux : les féeriques décors de Noël compensent largement l'absence de floraisons dans les jardins et la brièveté des jours."
+      },
+      {
+        "id": 5,
+        "question": "Comment s'habiller en mai ? En septembre ? En hiver ?",
+        "response": "Le climat de la Loire est océanique tempéré. On marche beaucoup en extérieur. Ayez toujours avec vous une paire de chaussures confortables et fermées — des baskets imperméables, par exemple — et un coupe-vent à capuche. En hiver, couvrez-vous comme pour un automne tardif russe : 5 à 8 degrés peuvent sembler bien plus froids qu'ils ne sont, à cause de l'humidité. Des chaussures d'automne légèrement fourrées suffisent. Au printemps et en automne, il peut faire frais et venteux le matin, puis ensoleillé et doux l'après-midi. Le principe des couches superposées est donc la solution idéale."
       },
       {
         "id": 6,
-        "question": "Есть ли электрические зарядки для машин?",
-        "response": "С этим проблем возникнуть не должно. На автотрассах, на городских парковках, на первых парковочных местах у замка Шенонсо."
+        "question": "Y a-t-il des bornes de recharge pour les voitures électriques ?",
+        "response": "Cela ne devrait poser aucun problème. On en trouve sur les autoroutes, dans les parkings en ville, et même sur les premières places de parking du château de Chenonceau."
       }
     ]
   },
