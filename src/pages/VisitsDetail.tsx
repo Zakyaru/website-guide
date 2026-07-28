@@ -4,6 +4,7 @@ import { FiClock, FiTag } from "react-icons/fi";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Button from "../components/ui/Button";
 import type { VisitsType } from "../types/commun";
+import ImageCarousel from "../components/ui/ImageCarousel";
 
 function scrollToContact() {
     const el = document.getElementById("contact");
@@ -33,7 +34,6 @@ export default function VisitsDetail() {
   );
   if (!visitsDetail) return <div>Visite non trouvée (title slug)</div>;
 
-  const priceString = `${visitsDetail.price} €`;
   const paragraphs = visitsDetail.paragraphs;
 
   return (
@@ -41,7 +41,7 @@ export default function VisitsDetail() {
       <Link to={"/visits"}>
         <div className="flex gap-2 items-center">
           <FaArrowLeftLong className="text-muted text-base md:text-lg" />
-          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">Retour vers Catalogue</span>
+          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">{t("visits.btn_back_catalogue")}</span>
         </div>
       </Link>
       
@@ -51,12 +51,17 @@ export default function VisitsDetail() {
         
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
-            <FiClock className="text-xl md:text-2xl" />
+            <FiClock className="shrink-0 text-xl md:text-2xl" />
             <span className="text-xl md:text-2xl">{timeTour.duration}</span>
           </div>
           <div className="flex items-center gap-2">
-            <FiTag className="text-xl md:text-2xl" />
-            <span className="text-xl md:text-2xl">{priceString}</span>
+            <FiTag className="shrink-0 text-xl md:text-2xl" />
+            {visitsDetail.price ? (
+              <span className="text-xl md:text-2xl">{`${visitsDetail.price} €`}</span>
+            ) : (
+              <span className="text-sm md:text-lg">{visitsDetail.price_description}</span>
+            )
+            }
           </div>
         </div>
 
@@ -67,14 +72,7 @@ export default function VisitsDetail() {
         </div>
       </div>
 
-      <figure className="overflow-hidden rounded-2xl aspect-4/3 sm:aspect-video">
-        <img
-          src={visitsDetail.image_url}
-          alt={visitsDetail.title}
-          loading="lazy"
-          className="w-full h-full object-cover"
-        />
-      </figure>
+      <ImageCarousel images={visitsDetail.images} alt={visitsDetail.title} />
 
       <div className="mt-6 space-y-4 md:space-y-6">
         {paragraphs.map((item) => (
