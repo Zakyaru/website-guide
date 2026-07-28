@@ -13,35 +13,35 @@
       "btn_action1": "Catalogue des visites",
       "btn_action2": "Qui suis-je ?"
     },
-    "title": "Pourquoi vous devez absolument venir ici",
+    "title": "Pourquoi vous devez absolument venir découvrir la vallée de la Loire",
     "paragraphs": [
       {
         "id": 1,
-        "text": "Vous êtes peut-être déjà venu(e) en France à plusieurs reprises : vous vous êtes promené(e) dans Paris ou vous vous êtes reposé(e) sur la Côte d’Azur. Peut-être même avez-vous fait une excursion en Normandie."
+        "text": "Vous avez peut-être déjà voyagé en France dans différents endroits — vous avez flâné dans Paris, profité du soleil sur la Côte d'Azur. Vous avez peut-être même fait une excursion en Normandie."
       },
       {
         "id": 2,
-        "text": "D’un point de vue touristique, la France est très chanceuse : elle possède ses montagnes, l’océan, la Manche et la mer Méditerranée. Un Français a toujours une destination où aller. Chaque région est unique à sa manière, différente des autres tant par ses paysages et son climat que par son histoire locale et ses traditions, le style de ses maisons, de ses costumes et de sa cuisine."
+        "text": "La France a, touristiquement parlant, une chance extraordinaire : elle a ses montagnes, son océan, sa Manche et sa Méditerranée. Un Français n'est jamais à court de destinations. Chaque région y est unique à sa façon, que ce soit de part : le paysage, le climat, l'histoire locale, les traditions, le style des maisons, des costumes ou encore de la cuisine."
       },
       {
         "id": 3,
-        "text": "Mais lorsque l’on parle précisément des origines de la France moderne, du domaine même du roi de France, il s’agit avant tout de l’Île-de-France – Saint-Denis, Vincennes, Saint-Germain, Passy, Rambouillet. Et en second lieu – de la vallée de la Loire."
+        "text": "Mais quand on parle des racines de la France moderne, du domaine propre du roi de France, on pense en premier lieu à l'Île-de-France — Saint-Denis, Vincennes, Saint-Germain, Passy, Rambouillet. Et en second lieu, à la vallée de la Loire."
       },
       {
         "id": 4,
-        "text": "Autrefois, c’était le plus royal des territoires. Et les châteaux disséminés le long de la Loire et de ses affluents témoignent encore aujourd’hui de cet âge d’or sans précédent."
+        "text": "Or, c'était par le passé, la région la plus royale qui soit. Et les châteaux, semés comme des joyaux le long de la Loire et de ses affluents, témoignent encore aujourd'hui d'une époque d'un éclat sans pareil."
       },
       {
         "id": 5,
-        "text": "C’est la terre de François Rabelais, de Descartes et de Balzac. On y parle le français le plus pur, et les habitants locaux sont secrètement fiers de penser que dans leurs veines coule le « sang bleu » des rois de France et de leurs courtisans."
+        "text": "C'est la terre de François Rabelais, de Descartes et de Balzac. On y parle le français le plus pur qui soit, et les habitants sont secrètement fiers que coule dans leurs veines le sang « bleu » des rois de France et de leurs courtisans."
       },
       {
         "id": 6,
-        "text": "Sur le plan naturel et climatique, c’est le véritable jardin de la France, au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, et même les ronds-points si populaires en France, sont toujours richement végétalisés. C’est le troisième vignoble de France par sa superficie. On y cultive des pommes, des poires, des prunes et des pêches."
+        "text": "Sur le plan naturel et climatique, c'est bel et bien le Jardin de la France — au sens propre comme au sens figuré. Les parterres fleuris et les parcs des châteaux, les squares et les espaces verts des villes et des villages, jusqu'aux ronds-points — si populaires en France et toujours richement fleuris — en témoignent à chaque tournant. C'est le troisième vignoble de France par sa superficie. On y cultive pommes, poires, prunes et pêches."
       },
       {
         "id": 7,
-        "text": "Au sens figuré, cette fameuse VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l’UNESCO, raconte comment l’homme a su transformer harmonieusement le paysage naturel, sans le déformer, ni l’enlaidir, ni le briser, mais en y intégrant sa présence avec justesse, faisant de ce coin de terre l’un des plus beaux endroits du monde."
+        "text": "Au sens figuré, cette VALLÉE, inscrite en 2000 au patrimoine culturel et historique de l'UNESCO, raconte comment l'homme a su transformer harmonieusement un paysage naturel — sans le dénaturer, sans le défigurer, sans le briser — en y inscrivant sa présence avec bonheur, faisant de ce coin de terre l'un des plus beaux endroits du monde."
       }
     ]
   },
@@ -50,6 +50,7 @@
     "description": "Cette région ne se résume pas à une liste de châteaux à cocher. C'est pourquoi j'ai conçu chacune de ces visites comme une histoire à part entière. Organisées par durée, elles s'adaptent à tous les programmes — et à toutes les envies.",
     "btn_more": "En savoir plus",
     "btn_detail_action": "Choisir cette visite",
+    "btn_back_catalogue": "Retour vers Catalogue",
     "visitsList": [
       {
         "id": 1,
@@ -60,8 +61,22 @@
             "id": 1,
             "title": "Léonard de Vinci à Amboise : le Clos Lucé",
             "title_slug": "amboise-clos-luce",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chenonceau.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/visite_enfant.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -77,8 +92,22 @@
             "id": 2,
             "title": "Le château aux mille salamandres : Chambord",
             "title_slug": "chambord",
-            "image_url": "/images/chambord.webp",
+            "main_image_url": "/images/chambord.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -102,8 +131,22 @@
             "id": 3,
             "title": "Le château des femmes : Chenonceau",
             "title_slug": "chenonceau",
-            "image_url": "/images/chenonceau.webp",
+            "main_image_url": "/images/chenonceau.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -127,8 +170,22 @@
             "id": 4,
             "title": "Le manoir noble de Cheverny",
             "title_slug": "cheverny",
-            "image_url": "/images/cheverny.webp",
+            "main_image_url": "/images/cheverny.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -148,8 +205,22 @@
             "id": 5,
             "title": "La ville de saint Martin : Tours",
             "title_slug": "tours",
-            "image_url": "/images/tours.webp",
+            "main_image_url": "/images/tours.webp",
             "price": "180",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -161,8 +232,22 @@
             "id": 6,
             "title": "Le château royal d'Amboise",
             "title_slug": "amboise-chateau",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -182,8 +267,22 @@
             "id": 7,
             "title": "Chaumont-sur-Loire : le château et les jardins",
             "title_slug": "chaumont-sur-loire",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -199,8 +298,22 @@
             "id": 8,
             "title": "Le château des sept rois : Blois",
             "title_slug": "chateau-blois",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -216,8 +329,22 @@
             "id": 9,
             "title": "La ville de Jeanne d'Arc : Orléans",
             "title_slug": "orleans",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -244,8 +371,22 @@
             "id": 1,
             "title": "Entre Loire et Indre : Azay-le-Rideau et les jardins de Villandry",
             "title_slug": "azay-le-rideau-villandry",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -265,8 +406,22 @@
             "id": 2,
             "title": "La cité royale d'Amboise : château d'Amboise, Clos Lucé, ville",
             "title_slug": "amboise",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -290,8 +445,22 @@
             "id": 3,
             "title": "La cité royale de Blois : château + visite pédestre de la ville",
             "title_slug": "blois",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -311,8 +480,22 @@
             "id": 4,
             "title": "La forteresse de Loches : deux châteaux en un",
             "title_slug": "loches",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "250",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -332,8 +515,22 @@
             "id": 5,
             "title": "Le Mans : une perle méconnue. Cathédrale Saint-Julien, vieux centre +/- château du Lude",
             "title_slug": "le-mans",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "300/450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -368,7 +565,7 @@
         "specifications": [
           {
             "id": 1,
-            "text": "* pour les sportifs"
+            "text": "* pour les sportifs qui aiment un bon rythme"
           },
           {
             "id": 2,
@@ -380,8 +577,22 @@
             "id": 1,
             "title": "*Les classiques des châteaux : Amboise, Chenonceau, Chambord",
             "title_slug": "classical-amboise-chenonceau-chambord",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "490",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -401,8 +612,22 @@
             "id": 2,
             "title": "*L'histoire de la cour royale française en châteaux et en portraits : Amboise, Blois, Chambord",
             "title_slug": "amboise-blois-chambord",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "490",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -438,8 +663,22 @@
             "id": 3,
             "title": "**L'histoire du gynécée royal : Chenonceau, Blois",
             "title_slug": "chenonceau-blois",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -467,8 +706,22 @@
             "id": 4,
             "title": "**L'art de vivre à la Renaissance : Chenonceau et Villandry",
             "title_slug": "chenonceau-villandry",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -484,8 +737,22 @@
             "id": 5,
             "title": "**Les résidences royales de Blois et de Chambord",
             "title_slug": "blois-chambord",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -517,8 +784,22 @@
             "id": 6,
             "title": "À l'ouest de Tours 1 : Azay-le-Rideau, Villandry, Langeais",
             "title_slug": "azay-le-rideau-villandry-langers",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "470",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -538,8 +819,22 @@
             "id": 7,
             "title": "À l'ouest de Tours 2 : Villandry, Azay-le-Rideau, le château de la Belle au Bois Dormant — Ussé",
             "title_slug": "villandry-azay-le-rideau-chateau",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "470",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -559,8 +854,22 @@
             "id": 8,
             "title": "La saga des Plantagenêts : Chinon, Fontevraud, Saumur",
             "title_slug": "chinon-fontevrau-saumur",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "480",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -584,8 +893,22 @@
             "id": 9,
             "title": "Paysage ligérien : vin et histoire",
             "title_slug": "loire-landscape",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "480",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -605,8 +928,22 @@
             "id": 10,
             "title": "Les trésors de l'art de la tapisserie : histoire de la ville d'Angers",
             "title_slug": "city-angers",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "520",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -637,8 +974,22 @@
             "id": 1,
             "title": "Tour gastronomique : pour l'esprit, le cœur et l'estomac",
             "title_slug": "gastro-tour",
-            "image_url": "/images/chateau_angers.webp",
+            "main_image_url": "/images/chateau_angers.webp",
             "price_description": "Tarif pour 2 jours de service guide + dégustations : 940 euros. Transport, droits d'entrée dans les châteaux, bateau et « chasse » à la truffe, ainsi que repas et hébergement sur le parcours sont à régler séparément.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -670,8 +1021,22 @@
             "id": 2,
             "title": "La diagonale des cathédrales : 3 cathédrales et 5 châteaux méconnus",
             "title_slug": "original-tour",
-            "image_url": "/images/chateau_angers_whatsapp.webp",
+            "main_image_url": "/images/chateau_angers_whatsapp.webp",
             "price_description": "Tarif pour 4 jours de service guide + remboursement des frais de déplacement du guide : 1 990 euros. Frais supplémentaires à la charge du voyageur : transport, droits d'entrée dans les châteaux, repas et hébergement sur le parcours.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -707,8 +1072,22 @@
             "id": 3,
             "title": "Programme de visites pour enfants dans la Vallée de la Loire",
             "title_slug": "kids-tour",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price_description": "Tarif pour 3 jours de service guide + remboursement des frais de train du guide : 1 400 euros. Droits d'entrée dans les châteaux et le parc, ainsi que repas et hébergement sur le parcours sont à régler séparément.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -765,7 +1144,7 @@
       },
       {
         "id": 4,
-        "text": "Je suis également traductrice assermentée et m'occupe, à mes heures libres, de traductions écrites et orales. Mère de quatre enfants."
+        "text": "Je suis de plus traductrice assermentée et m'occupe, à mes heures libres, de traductions écrites et orales. Egalement mère de quatre enfants."
       },
       {
         "id": 5,

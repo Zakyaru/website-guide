@@ -3,13 +3,19 @@ export interface ParagraphType {
   text: string;
 }
 
+export interface ImageType {
+  id: number;
+  image_url: string;
+}
+
 export interface VisitCardType {
   id: number;
   title: string;
   title_slug: string;
-  image_url: string;
+  main_image_url: string;
   price?: string;
   price_description?: string;
+  images: ImageType[];
   paragraphs: ParagraphType[];
 }
 

@@ -50,6 +50,7 @@
     "description": "Этот регион — не список замков, которые нужно «отметить галочкой». Именно поэтому я составила каждую из этих экскурсий как отдельную, самостоятельную историю. Сгруппированные по продолжительности, они подходят для любой программы — и для любого настроения.",
     "btn_more": "Подробнее",
     "btn_detail_action": "Выбрать эту экскурсию",
+    "btn_back_catalogue": "Назад к Каталогу",
     "visitsList": [
       {
         "id": 1,
@@ -60,8 +61,22 @@
             "id": 1,
             "title": "Леонардо да Винчи в Амбуазе: Кло Люсе",
             "title_slug": "amboise-clos-luce",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -77,8 +92,22 @@
             "id": 2,
             "title": "Замок тысячи саламандр : Шамбор",
             "title_slug": "chambord",
-            "image_url": "/images/chambord.webp",
+            "main_image_url": "/images/chambord.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -102,8 +131,22 @@
             "id": 3,
             "title": "Женский замок Шенонсо",
             "title_slug": "chenonceau",
-            "image_url": "/images/chenonceau.webp",
+            "main_image_url": "/images/chenonceau.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -127,8 +170,22 @@
             "id": 4,
             "title": "Дворянская усадьба Шеверни",
             "title_slug": "cheverny",
-            "image_url": "/images/cheverny.webp",
+            "main_image_url": "/images/cheverny.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -148,8 +205,22 @@
             "id": 5,
             "title": "Город Св. Мартина: Тур",
             "title_slug": "tours",
-            "image_url": "/images/tours.webp",
+            "main_image_url": "/images/tours.webp",
             "price": "180",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -161,8 +232,22 @@
             "id": 6,
             "title": "Королевский замок Амбуаз",
             "title_slug": "amboise-chateau",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -182,8 +267,22 @@
             "id": 7,
             "title": "Шомон-на-Луаре: замок и сады",
             "title_slug": "chaumont-sur-loire",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -199,8 +298,22 @@
             "id": 8,
             "title": "Замок семи королей : Блуа",
             "title_slug": "chateau-blois",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "200",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -216,8 +329,22 @@
             "id": 9,
             "title": "Город Жанны д’Арк Орлеан",
             "title_slug": "orleans",
-            "image_url": "/images/vue_loire.webp",
+            "main_image_url": "/images/vue_loire.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -244,8 +371,22 @@
             "id": 1,
             "title": "Между Луарою и Эндром : Азе-ле-Ридо и сады Вилландри",
             "title_slug": "azay-le-rideau-villandry",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -265,8 +406,21 @@
             "id": 2,
             "title": "Королевский город Амбуаз: замок Амбуаз, Кло Люсе, город",
             "title_slug": "amboise",
-            "image_url": "/images/amboise.webp",
-            "price": "300",
+            "main_image_url": "/images/amboise.webp",
+            "price": "300","images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -290,8 +444,22 @@
             "id": 3,
             "title": "Королевский город Блуа : замок + пешеходная экскурсия по городу",
             "title_slug": "blois",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "300",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -311,8 +479,22 @@
             "id": 4,
             "title": "Крепость Лош: два замка в одном",
             "title_slug": "loches",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "250",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -332,8 +514,22 @@
             "id": 5,
             "title": "Ле Ман: неизвестная жемчужина. Собор Св. Юлиана, старинный центр +/- замок Ле Люд",
             "title_slug": "le-mans",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "300/450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -368,7 +564,7 @@
         "specifications": [
           {
             "id": 1,
-            "text": "* для спортсменов"
+            "text": "* для спортсменов, которые любят хороший ритм"
           },
           {
             "id": 2,
@@ -380,8 +576,22 @@
             "id": 1,
             "title": "*Классика замков: Амбуаз, Шенонсо, Шамбор",
             "title_slug": "classical-amboise-chenonceau-chambord",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "490",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -401,8 +611,22 @@
             "id": 2,
             "title": "*История королевского французского двора в замках и лицах: Амбуаз, Блуа, Шамбор",
             "title_slug": "amboise-blois-chambord",
-            "image_url": "/images/amboise.webp",
+            "main_image_url": "/images/amboise.webp",
             "price": "490",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -438,8 +662,22 @@
             "id": 3,
             "title": "**История женского королевского двора: Шенонсо, Блуа",
             "title_slug": "chenonceau-blois",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -467,8 +705,22 @@
             "id": 4,
             "title": "**Исскуство жить в эпоху Ренессанса: Шенонсо и Вилландри",
             "title_slug": "chenonceau-villandry",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -484,8 +736,22 @@
             "id": 5,
             "title": "**Королевские резиденции Блуа и Шамбор",
             "title_slug": "blois-chambord",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "450",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -517,8 +783,22 @@
             "id": 6,
             "title": "На запад от Тура 1: Азе-ле-Ридо, Вилландри, Ланже",
             "title_slug": "azay-le-rideau-villandry-langers",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "470",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -538,8 +818,22 @@
             "id": 7,
             "title": "На запад от Тура 2: Вилландри, Азе-ле-Ридо, замок Спящей красавицы Юссе",
             "title_slug": "villandry-azay-le-rideau-chateau",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "470",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -559,8 +853,21 @@
             "id": 8,
             "title": "Сага о Плантагенетах: Шинон, Фонтевро, Сомюр",
             "title_slug": "chinon-fontevrau-saumur",
-            "image_url": "/images/villandry.webp",
-            "price": "480",
+            "main_image_url": "/images/villandry.webp",
+            "price": "480","images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -584,8 +891,22 @@
             "id": 9,
             "title": "Луарский пейзаж : вино и история",
             "title_slug": "loire-landscape",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "480",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -605,8 +926,22 @@
             "id": 10,
             "title": "Сокровища искусства шпалеры: история города Анже",
             "title_slug": "city-angers",
-            "image_url": "/images/villandry.webp",
+            "main_image_url": "/images/villandry.webp",
             "price": "520",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -637,8 +972,22 @@
             "id": 1,
             "title": "Гастрономический тур: для ума, сердца и желудка",
             "title_slug": "gastro-tour",
-            "image_url": "/images/chateau_angers.webp",
+            "main_image_url": "/images/chateau_angers.webp",
             "price_description": "Стоимость 2-х дней экскурсионного обслуживания + дегустации –940 евро. Транспорт, входные билеты в замки, лодку и трюфельную «охоту», а также питание и проживание по маршруту вы оплачиваете дополнительно.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -670,8 +1019,22 @@
             "id": 2,
             "title": "Соборная диагональ: 3 собора и 5 малоизвестных замков",
             "title_slug": "original-tour",
-            "image_url": "/images/chateau_angers_whatsapp.webp",
+            "main_image_url": "/images/chateau_angers_whatsapp.webp",
             "price_description": "Стоимость 4-х дней экскурсионного обслуживания + компенсация дороги для гида–1990 евро. Дополнительные расходы – транспортные услуги, входные билеты в замки, а также питание и проживание по маршруту вы оплачиваете самостоятельно.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,
@@ -707,8 +1070,22 @@
             "id": 3,
             "title": "Детская экскурсионная программа в Долине Луары",
             "title_slug": "kids-tour",
-            "image_url": "/images/visite_enfant.webp",
+            "main_image_url": "/images/visite_enfant.webp",
             "price_description": "Стоимость 3-х дней экскурсионного обслуживания + компенсация поезда для гида– 1400 евро. Входные билеты в замки и парк, а также питание и проживание по маршруту вы оплачиваете самостоятельно.",
+            "images": [
+              {
+                "id": 1,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 2,
+                "image_url": "/images/chateau_angers.webp"
+              },
+              {
+                "id": 3,
+                "image_url": "/images/chateau_angers.webp"
+              }
+            ],
             "paragraphs": [
               {
                 "id": 1,

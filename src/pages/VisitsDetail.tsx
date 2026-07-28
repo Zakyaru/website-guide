@@ -4,6 +4,7 @@ import { FiClock, FiTag } from "react-icons/fi";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Button from "../components/ui/Button";
 import type { VisitsType } from "../types/commun";
+import ImageCarousel from "../components/ui/ImageCarousel";
 
 function scrollToContact() {
     const el = document.getElementById("contact");
@@ -40,7 +41,7 @@ export default function VisitsDetail() {
       <Link to={"/visits"}>
         <div className="flex gap-2 items-center">
           <FaArrowLeftLong className="text-muted text-base md:text-lg" />
-          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">Retour vers Catalogue</span>
+          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">{t("visits.btn_back_catalogue")}</span>
         </div>
       </Link>
       
@@ -71,14 +72,7 @@ export default function VisitsDetail() {
         </div>
       </div>
 
-      <figure className="overflow-hidden rounded-2xl aspect-4/3 sm:aspect-video">
-        <img
-          src={visitsDetail.image_url}
-          alt={visitsDetail.title}
-          loading="lazy"
-          className="w-full h-full object-cover"
-        />
-      </figure>
+      <ImageCarousel images={visitsDetail.images} alt={visitsDetail.title} />
 
       <div className="mt-6 space-y-4 md:space-y-6">
         {paragraphs.map((item) => (
