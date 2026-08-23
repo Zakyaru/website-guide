@@ -7,9 +7,10 @@ import type { VisitCardType } from "../../types/commun";
 type Props = {
   visits: VisitCardType[];
   durationSlug: string;
+  restore: boolean;
 };
 
-export default function VisitCarousel({ visits, durationSlug }: Props) {
+export default function VisitCarousel({ visits, durationSlug, restore }: Props) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "start",
@@ -23,8 +24,10 @@ export default function VisitCarousel({ visits, durationSlug }: Props) {
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
-    setSelectedIndex(emblaApi.selectedScrollSnap());
-  }, [emblaApi]);
+    const idx = emblaApi.selectedScrollSnap();
+    setSelectedIndex(idx);
+    sessionStorage.setItem(`carousel:${durationSlug}`, String(idx));
+  }, [emblaApi, durationSlug]);
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -37,6 +40,17 @@ export default function VisitCarousel({ visits, durationSlug }: Props) {
       emblaApi.off("init", onSelect);
     };
   }, [emblaApi, onSelect]);
+
+  // Restaure la position mémorisée uniquement si on revient via "Retour"
+  useEffect(() => {
+    if (!emblaApi || !restore) return;
+    const saved = sessionStorage.getItem(`carousel:${durationSlug}`);
+    if (saved === null) return;
+    const idx = Number(saved);
+    if (Number.isNaN(idx)) return;
+    const snaps = emblaApi.scrollSnapList().length;
+    emblaApi.scrollTo(Math.min(idx, snaps - 1), true); // true = saut instantané
+  }, [emblaApi, restore, durationSlug]);
 
   return (
     <>
@@ -52,10 +66,7 @@ export default function VisitCarousel({ visits, durationSlug }: Props) {
         <div className="overflow-hidden flex-1" ref={emblaRef}>
           <div className="flex -ml-6 pb-1">
             {visits.map((visit) => (
-              <div
-                key={visit.id}
-                className="flex-none w-full sm:w-1/2 pl-6"
-              >
+              <div key={visit.id} className="flex-none w-full sm:w-1/2 pl-6">
                 <VisitCard visit={visit} duration_slug={durationSlug} />
               </div>
             ))}

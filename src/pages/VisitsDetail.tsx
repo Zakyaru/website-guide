@@ -3,26 +3,24 @@ import { Link, useParams } from "react-router-dom";
 import { FiClock, FiTag } from "react-icons/fi";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Button from "../components/ui/Button";
-import type { VisitsType } from "../types/commun";
 import ImageCarousel from "../components/ui/ImageCarousel";
+import type { VisitsType } from "../types/commun";
 
 function scrollToContact() {
-    const el = document.getElementById("contact");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else {
-      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
-    }
+  const el = document.getElementById("contact");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   }
+}
 
 export default function VisitsDetail() {
   const { t } = useTranslation();
   const { duration_slug, title_slug } = useParams();
 
   const visitsList =
-    (t("visits.visitsList", {
-      returnObjects: true,
-    }) as VisitsType[]) || [];
+    (t("visits.visitsList", { returnObjects: true }) as VisitsType[]) || [];
 
   const timeTour = visitsList.find(
     (item) => item.duration_slug === duration_slug,
@@ -38,17 +36,21 @@ export default function VisitsDetail() {
 
   return (
     <section className="page-width container-main">
-      <Link to={"/visits"}>
+      <Link
+        to={"/visits"}
+        onClick={() => sessionStorage.setItem("visitsRestore", "1")}
+      >
         <div className="flex gap-2 items-center">
           <FaArrowLeftLong className="text-muted text-base md:text-lg" />
-          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">{t("visits.btn_back_catalogue")}</span>
+          <span className="text-muted text-base md:text-lg hover:underline underline-offset-4">
+            {t("visits.btn_back_catalogue")}
+          </span>
         </div>
       </Link>
-      
 
       <div className="mt-4 mb-6 flex flex-col gap-4">
         <h2>{visitsDetail.title}</h2>
-        
+
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
             <FiClock className="shrink-0 text-xl md:text-2xl" />
@@ -59,9 +61,10 @@ export default function VisitsDetail() {
             {visitsDetail.price ? (
               <span className="text-xl md:text-2xl">{`${visitsDetail.price} €`}</span>
             ) : (
-              <span className="text-sm md:text-lg">{visitsDetail.price_description}</span>
-            )
-            }
+              <span className="text-sm md:text-lg">
+                {visitsDetail.price_description}
+              </span>
+            )}
           </div>
         </div>
 

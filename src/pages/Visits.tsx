@@ -1,3 +1,4 @@
+import { useEffect, useLayoutEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { VisitsType } from "../types/commun";
 import { FiClock } from "react-icons/fi";
@@ -7,6 +8,35 @@ export default function Visits() {
   const { t } = useTranslation();
   const visitsList =
     (t("visits.visitsList", { returnObjects: true }) as VisitsType[]) || [];
+
+  // Lu une seule fois au montage : venons-nous du bouton "Retour" ?
+  const [restore] = useState(
+    () => sessionStorage.getItem("visitsRestore") === "1",
+  );
+
+  // Visite "fraîche" (menu, lien direct) : on efface l'état mémorisé -> tout à 0
+  useLayoutEffect(() => {
+    if (restore) return;
+    sessionStorage.removeItem("visitsScroll");
+    Object.keys(sessionStorage).forEach((key) => {
+      if (key.startsWith("carousel:")) sessionStorage.removeItem(key);
+    });
+  }, [restore]);
+
+  // Enregistre la position de scroll en continu (robuste au démontage / StrictMode)
+  useEffect(() => {
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        sessionStorage.setItem("visitsScroll", String(window.scrollY));
+        ticking = false;
+      });
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   return (
     <section className="page-width container-main">
@@ -22,30 +52,28 @@ export default function Visits() {
                 {timeTour.duration}
               </span>
             </div>
-              {timeTour.description && (
-                <div className="mt-2">
-                  {timeTour.description.map((item) => (
-                    <p key={item.id}>{item.text}</p>
-                  ))}
-                </div>
-              )}
+            {timeTour.description && (
+              <div className="mt-2">
+                {timeTour.description.map((item) => (
+                  <p key={item.id}>{item.text}</p>
+                ))}
+              </div>
+            )}
           </div>
           <VisitCarousel
             visits={timeTour.visitCardList}
             durationSlug={timeTour.duration_slug}
+            restore={restore}
           />
           {timeTour.duration_slug === "dayTour" && (
-                <div className="mt-2">
-                  {timeTour.specifications?.map((item) => (
-                    <p
-                      key={item.id}
-                      className="text-sm md:text-base italic"
-                    >
-                      {item.text}
-                    </p>
-                  ))}
-                </div>
-              )}
+            <div className="mt-2">
+              {timeTour.specifications?.map((item) => (
+                <p key={item.id} className="text-sm md:text-base italic">
+                  {item.text}
+                </p>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </section>
