@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import type { VisitsType } from "../types/commun";
 import { FiClock } from "react-icons/fi";
@@ -9,12 +9,10 @@ export default function Visits() {
   const visitsList =
     (t("visits.visitsList", { returnObjects: true }) as VisitsType[]) || [];
 
-  // Lu une seule fois au render : venons-nous du bouton "Retour" ?
-  const restoreRef = useRef<boolean | null>(null);
-  if (restoreRef.current === null) {
-    restoreRef.current = sessionStorage.getItem("visitsRestore") === "1";
-  }
-  const restore = restoreRef.current;
+  // Lu une seule fois au montage : venons-nous du bouton "Retour" ?
+  const [restore] = useState(
+    () => sessionStorage.getItem("visitsRestore") === "1",
+  );
 
   // Visite "fraîche" (menu, lien direct) : on efface l'état mémorisé -> tout à 0
   useLayoutEffect(() => {
